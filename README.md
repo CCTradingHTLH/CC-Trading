@@ -6,53 +6,16 @@ v1.0
 
 ---
 
-Quick Start
+📖 Handbook
 
-1. Constitution
-2. Architecture
-3. Indicators
-4. PQ
-5. FEQ
-6. Execution
+📊 Strategy
 
----
+🧪 Research
 
-Latest Update
+📒 Journal
 
-v1.0
+📚 Case Study
 
----
+📝 Changelog
 
-Roadmap
-
-v1.1
-Distance
-
-v1.2
-AI Score
-
----
-
-Documents
-
-📖 Constitution
-
-📖 Architecture
-
-📖 Indicators
-
-📖 PQ
-
-📖 FEQ
-
-📖 Execution
-
----
-
-Research
-
-R001 Distance
-
-R002 PQ
-
-R003 FEQ
+🚀 Roadmap
