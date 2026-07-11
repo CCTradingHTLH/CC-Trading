@@ -1,5 +1,4 @@
-# CC-Trading
-CC Trading by HTLH-ARM
+# CC Trading
 
 Current Version
 
