@@ -25,27 +25,27 @@ CC Trading tập trung vào việc giảm dần sự không chắc chắn thông
 Mỗi quyết định được hình thành từ một chuỗi suy luận:
 
 ```text
-Observe
+Quan sát
 
 ↓
 
-Understand
+Hiểu
 
 ↓
 
-Confirm
+Xác nhận
 
 ↓
 
-Evaluate
+Đánh giá
 
 ↓
 
-Decide
+Quyết định
 
 ↓
 
-Execute
+Thực thi
 ```
 
 ---
