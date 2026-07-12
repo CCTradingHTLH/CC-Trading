@@ -8,7 +8,7 @@ language: vi
 created: 2026-07-12
 last_updated: 2026-07-12
 review_cycle: Monthly
-confidence: 100%
+confidence: 95%
 tags:
   - input
   - macro

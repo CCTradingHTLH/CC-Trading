@@ -5,6 +5,13 @@ version: 2.0
 status: Stable
 author: HTLH
 language: vi
+created: 2026-07-12
+last_updated: 2026-07-12
+review_cycle: Monthly
+confidence: 95%
+tags:
+  - input
+  - observation
 ---
 
 # Observation
