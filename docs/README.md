@@ -1,36 +1,16 @@
-# Tài liệu CC Trading
+<div align="center">
 
-> **Biến giao dịch thành một ngành kỹ thuật.**
+# 🧠 CC Trading
 
-Kho tài liệu này chứa toàn bộ hệ thống kiến thức của CC Trading.
+## *Don't pursue certainty. Pursue clarity.*
 
-Mọi tài liệu đều được xây dựng theo mô hình **Living Document**.
+## **Không theo đuổi sự chắc chắn. Theo đuổi sự sáng suốt.**
 
 ---
 
-# Lộ trình phát triển
+*Một hệ thống suy luận được xây dựng để hỗ trợ việc ra quyết định trong môi trường bất định.*
 
-```text
-Research
-
-↓
-
-Verification
-
-↓
-
-Canon
-
-↓
-
-Architecture
-
-↓
-
-Implementation
-```
-
-Chỉ những kiến thức đã được kiểm chứng mới được đưa vào Canon.
+</div>
 
 ---
 
@@ -39,54 +19,66 @@ Chỉ những kiến thức đã được kiểm chứng mới được đưa v�
 ```text
 docs/
 
-README.md
-
-↓
-
-vi/
-
-↓
-
-01 Constitution
-
-02 Architecture
-
-03 Canon
-
-04 Research
-
-05 Strategy
-
-06 Case Study
-
-07 Journal
+├── 01-Manifesto/
+│   Tuyên ngôn cốt lõi
+│
+├── 02-Architecture/
+│   Kiến trúc suy luận
+│
+├── 03-Input/
+│   Chuẩn hóa dữ liệu quan sát
+│
+└── 04-Canon/
+    Hệ thống tri thức
 ```
 
 ---
 
-# Ngôn ngữ
+# Tiến độ
 
-Hiện tại toàn bộ tài liệu chính thức được phát triển bằng:
-
-```text
-Tiếng Việt
-```
-
-Sau khi Canon ổn định sẽ phát hành phiên bản:
-
-```text
-docs/en/
-```
+| Thành phần | Trạng thái |
+|------------|:---------:|
+| 01 Manifesto | ❄️ Freeze |
+| 02 Architecture | ❄️ Freeze |
+| 03 Input | 🟡 Đang phát triển |
+| 04 Canon | 🟡 Đang phát triển |
 
 ---
 
-# Triết lý
+# Triết lý phát triển
 
-CC Trading không xây dựng một chiến lược.
+Hệ thống được xây dựng theo thứ tự:
 
-CC Trading xây dựng một hệ thống tư duy có khả năng:
+```text
+Manifesto
 
-- học,
-- kiểm chứng,
-- tiến hóa,
-- và tự mở rộng.
+↓
+
+Architecture
+
+↓
+
+Input
+
+↓
+
+Canon
+```
+
+Mỗi thành phần chỉ có **một trách nhiệm duy nhất**.
+
+- **Manifesto** định nghĩa những nguyên tắc cốt lõi.
+- **Architecture** định nghĩa cách hệ thống suy luận.
+- **Input** chuẩn hóa những gì được quan sát.
+- **Canon** lưu trữ và tổ chức tri thức.
+
+---
+
+<div align="center">
+
+### **Reason with clarity. Decide with confidence.**
+
+🏆
+
+</div>
+```
