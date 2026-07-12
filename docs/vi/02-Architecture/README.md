@@ -2,7 +2,7 @@
 title: Architecture
 id: architecture
 version: 1.0
-status: Canon
+status: Active Development
 ---
 
 # Architecture
