@@ -1,60 +1,76 @@
 ---
 title: Architecture
 id: architecture
-version: 1.0
-status: Active Development
+version: 2.0
+status: Freeze
+author: HTLH
+language: vi
+created: 2026-07-12
+last_updated: 2026-07-12
+review_cycle: Monthly
+confidence: 100%
+tags:
+  - architecture
+  - core
+  - workflow
 ---
 
 # Architecture
 
-> "Framework quyết định cách CC Trading vận hành."
+> Architecture mô tả cách Core Engine chuyển đổi dữ liệu đầu vào thành quyết định giao dịch.
 
 ---
 
-## Mục lục
+# Mục tiêu
 
-### 01. Overview
+Architecture trả lời một câu hỏi duy nhất.
 
-Triết lý thiết kế tổng thể của CC Trading.
+> Core Engine suy luận như thế nào?
 
----
+Architecture không định nghĩa tri thức.
 
-### 02. Workflow
-
-Luồng xử lý từ dữ liệu thị trường đến quyết định giao dịch.
+Architecture chỉ định nghĩa cách các lớp tri thức phối hợp với nhau.
 
 ---
 
-### 03. Input
+# Thành phần
 
-Định nghĩa toàn bộ dữ liệu đầu vào.
+```text
+README
 
----
+01 Workflow
 
-### 04. Core Engine
+02 Layer
 
-Bộ não của CC Trading.
+03 Core Engine
 
----
+04 Data Flow
 
-### 05. Output
+05 State Machine
 
-Chuẩn hóa đầu ra của hệ thống.
+06 Extensibility
+```
 
----
-
-### 06. Knowledge System
-
-Framework quản lý tri thức.
+Mỗi tài liệu mô tả một khía cạnh của Core Engine.
 
 ---
 
-### 07. Repository
+# Quan hệ với Canon
 
-Kiến trúc của toàn bộ GitHub Repository.
+Canon định nghĩa tri thức.
+
+Architecture định nghĩa cách sử dụng tri thức.
+
+Hai thành phần độc lập nhưng bổ sung cho nhau.
 
 ---
 
-### 08. Roadmap
+# Triết lý
 
-Định hướng phát triển của CC Trading.
+Core Engine không xử lý dữ liệu theo Indicator.
+
+Core Engine xử lý dữ liệu theo chuỗi câu hỏi.
+
+Mỗi tầng chỉ chịu trách nhiệm trả lời một câu hỏi.
+
+Chỉ khi câu hỏi hiện tại được trả lời đủ chắc chắn thì Core Engine mới chuyển sang tầng tiếp theo.
