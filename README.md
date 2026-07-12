@@ -87,7 +87,7 @@ Execute
 ```text
 docs/
 
-├── 01-Constitution/
+├── 01-Manifesto/
 │   Principles and values
 │
 ├── 02-Architecture/
