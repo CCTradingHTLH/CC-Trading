@@ -8,7 +8,7 @@ language: vi
 created: 2026-07-12
 last_updated: 2026-07-12
 review_cycle: Monthly
-confidence: 100%
+confidence: 95%
 tags:
   - input
   - observation
@@ -16,13 +16,13 @@ tags:
 
 # Input
 
-> Input định nghĩa những gì hệ thống được phép quan sát.
+> Input định nghĩa cách hệ thống quan sát thế giới.
 
 ---
 
 # Mục tiêu
 
-Input chuẩn hóa toàn bộ dữ liệu trước khi đưa vào quá trình suy luận.
+Chuẩn hóa toàn bộ dữ liệu trước khi đưa vào quá trình suy luận.
 
 Input không phân tích.
 
@@ -43,19 +43,23 @@ README.md
 
 02-Market-Image.md
 
-03-Quant-Dashboard.md
+03-Derivatives.md
 
-04-Market-Metrics.md
+04-Macro.md
 
 05-Validation.md
 ```
 
 ---
 
-# Vai trò
+# Observation Pipeline
 
 ```text
 Market
+
+↓
+
+Market Image
 
 ↓
 
@@ -63,17 +67,59 @@ Observation
 
 ↓
 
+Validation
+
+↓
+
 Core Engine
 ```
 
+Input chịu trách nhiệm chuyển dữ liệu từ thị trường thành Observation đã được chuẩn hóa.
+
 Core Engine không đọc thị trường trực tiếp.
 
-Core Engine chỉ đọc Observation đã được chuẩn hóa.
+Core Engine chỉ đọc Observation đã được xác nhận.
+
+---
+
+# Vai trò của từng thành phần
+
+## Observation
+
+Định nghĩa Observation là gì.
+
+---
+
+## Market Image
+
+Định nghĩa các nguồn quan sát.
+
+---
+
+## Derivatives
+
+Chuẩn hóa các Observation từ thị trường phái sinh.
+
+---
+
+## Macro
+
+Chuẩn hóa các Observation từ môi trường thị trường.
+
+---
+
+## Validation
+
+Xác nhận Observation đã đủ điều kiện để bắt đầu suy luận.
 
 ---
 
 # Triết lý
 
-Input càng chuẩn hóa.
+Quan sát càng chuẩn hóa.
 
 Quá trình suy luận càng ổn định.
+
+Không phải mọi dữ liệu đều trở thành Observation.
+
+Chỉ những dữ liệu đã được xác nhận mới được phép đi vào Core Engine.
