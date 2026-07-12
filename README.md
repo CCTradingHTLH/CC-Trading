@@ -1,72 +1,75 @@
-# CC Trading
+<div align="center">
 
-> **Transforming Trading into an Engineering Discipline.**
+# 🧠 CC Trading
 
-CC Trading is a **Trading Operating System** designed to standardize, verify and continuously improve trading decision-making.
+### *Don't pursue certainty. Pursue clarity.*
 
-This repository contains the complete knowledge architecture of the project.
-
----
-
-## Project Philosophy
-
-Trading is not a collection of indicators.
-
-Trading is an engineering discipline.
-
-CC Trading treats every trading decision as a structured engineering process that can be:
-
-- documented,
-- tested,
-- verified,
-- improved,
-- and eventually automated.
+## **Không theo đuổi sự chắc chắn.  
+Theo đuổi sự sáng suốt.**
 
 ---
 
-## Documentation
+*Một hệ thống suy luận được xây dựng để hỗ trợ việc ra quyết định trong môi trường bất định.*
 
-Documentation is located inside:
+*A reasoning system built to support decision-making under uncertainty.*
+
+</div>
+
+---
+
+## 🎯 Philosophy | Triết lý
+
+CC Trading không cố gắng dự đoán tương lai.
+
+CC Trading tập trung vào việc giảm dần sự không chắc chắn thông qua một quá trình suy luận có cấu trúc.
+
+Mỗi quyết định đều phải được hình thành từ:
+
+- Quan sát.
+- Hiểu.
+- Xác nhận.
+- Đánh giá.
+- Quyết định.
+
+---
+
+CC Trading does not attempt to predict the future.
+
+Instead, it continuously reduces uncertainty through structured reasoning.
+
+Every decision is built upon:
+
+- Observe.
+- Understand.
+- Confirm.
+- Evaluate.
+- Decide.
+
+---
+
+## 📂 Repository
 
 ```text
-docs/
-```
+01-Constitution
+    Principles and values
 
-Current primary language:
+02-Architecture
+    Reasoning engine
 
-```text
-Vietnamese
-```
+03-Input
+    Standardized observations
 
-English documentation will be released after the Canon becomes stable.
-
----
-
-## Repository Structure
-
-```text
-docs/
-    README.md
-    vi/
-    en/ (Future)
+04-Canon
+    Trading knowledge
 ```
 
 ---
 
-## Current Status
+<div align="center">
 
-| Module | Status |
-|---------|---------|
-| Constitution | ✅ |
-| Architecture | 🚧 |
-| Canon | ⏳ |
-| Research | ⏳ |
-| Strategy | ⏳ |
-| Case Study | ⏳ |
-| Journal | ⏳ |
+**Reason with clarity.  
+Decide with confidence.**
 
----
+🏆
 
-## License
-
-Under development.
+</div>
