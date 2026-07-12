@@ -2,7 +2,7 @@
 title: System Flow
 id: architecture-system-flow
 version: 1.0
-status: Canon
+status: Active Development
 author: HTLH
 language: vi
 created: 2026-07-12

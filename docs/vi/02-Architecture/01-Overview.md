@@ -2,7 +2,7 @@
 title: Overview
 id: architecture-overview
 version: 1.0
-status: Canon
+status: Active Development
 ---
 
 # Overview

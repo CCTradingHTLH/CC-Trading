@@ -2,7 +2,7 @@
 title: Output Layer
 id: architecture-output-layer
 version: 1.0
-status: Canon
+status: Active Development
 author: HTLH
 language: vi
 created: 2026-07-12

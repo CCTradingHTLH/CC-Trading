@@ -2,7 +2,7 @@
 title: Core Engine
 id: architecture-core-engine
 version: 1.0
-status: Canon
+status: Active Development
 author: HTLH
 language: vi
 created: 2026-07-12
