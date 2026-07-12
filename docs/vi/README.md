@@ -1,86 +1,60 @@
-CC Trading Documentation
+<div align="center">
 
-Version:        1.0
-Canon:          0%
-Architecture:   35%
-Research:       Active
-Last Update:    2026-07-12
-Status:         Active Development
+# 🧠 CC Trading
 
----
+## *Don't pursue certainty. Pursue clarity.*
 
-# CC Trading
-
-> **Biến giao dịch thành một ngành kỹ thuật.**
-
-Đây là trang chủ của toàn bộ tài liệu tiếng Việt.
-
-Nếu bạn mới bắt đầu.
-
-Hãy đọc theo đúng thứ tự dưới đây.
+## **Không theo đuổi sự chắc chắn. Theo đuổi sự sáng suốt.**
 
 ---
 
-# Lộ trình đọc
+*Một hệ thống suy luận được xây dựng để hỗ trợ việc ra quyết định trong môi trường bất định.*
+
+</div>
+
+---
+
+# Giới thiệu
+
+Tài liệu này mô tả toàn bộ hệ thống suy luận của **CC Trading**.
+
+Mục tiêu không phải là dự đoán tương lai, mà là liên tục nâng cao chất lượng quyết định thông qua một quá trình suy luận có cấu trúc.
+
+---
+
+# Cấu trúc tài liệu
 
 ```text
-01 Constitution
+01-Manifesto/
+    Tuyên ngôn cốt lõi
 
-↓
+02-Architecture/
+    Kiến trúc suy luận
 
-02 Architecture
+03-Input/
+    Chuẩn hóa dữ liệu quan sát
 
-↓
-
-03 Canon
-
-↓
-
-04 Research
-
-↓
-
-05 Strategy
-
-↓
-
-06 Case Study
-
-↓
-
-07 Journal
+04-Canon/
+    Hệ thống tri thức
 ```
 
 ---
 
-# Trạng thái
+# Tiến độ
 
-| Module | Trạng thái |
-|---------|------------|
-| Constitution | ✅ Hoàn thành |
-| Architecture | 🚧 Đang xây dựng |
-| Canon | ⏳ Chưa bắt đầu |
-| Research | ⏳ Chưa bắt đầu |
-| Strategy | ⏳ Chưa bắt đầu |
-| Case Study | ⏳ Chưa bắt đầu |
-| Journal | ⏳ Chưa bắt đầu |
+| Thành phần | Trạng thái |
+|------------|:---------:|
+| 01 Manifesto | ❄️ Freeze |
+| 02 Architecture | ❄️ Freeze |
+| 03 Input | 🟡 Đang phát triển |
+| 04 Canon | 🟡 Đang phát triển |
 
 ---
 
-# Quy tắc
-
-Mọi thay đổi trong hệ thống đều phải tuân theo quy trình.
+# Mối quan hệ giữa các thành phần
 
 ```text
-Research
-
-↓
-
-Verification
-
-↓
-
-Canon
+Manifesto
 
 ↓
 
@@ -88,24 +62,25 @@ Architecture
 
 ↓
 
-Implementation
+Input
+
+↓
+
+Canon
 ```
 
-Không cập nhật Canon nếu chưa có đủ bằng chứng.
+- **Manifesto** trả lời: *Hệ thống phải suy nghĩ như thế nào?*
+- **Architecture** trả lời: *Hệ thống suy luận bằng cách nào?*
+- **Input** trả lời: *Quan sát những gì từ thị trường?*
+- **Canon** trả lời: *Hệ thống biết những gì?*
 
 ---
 
-# Triết lý
+<div align="center">
 
-CC Trading không dự đoán thị trường.
+### **Reason with clarity. Decide with confidence.**
 
-CC Trading xây dựng một quy trình để diễn giải thị trường.
+🏆
 
-Kiến thức phải:
-
-- có cấu trúc;
-- có khả năng kiểm chứng;
-- có khả năng tiến hóa;
-- có khả năng tái sử dụng.
-
-Đó là nền tảng của toàn bộ hệ thống.
+</div>
+`
