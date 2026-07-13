@@ -10,17 +10,37 @@
 
 Xu hướng tăng rõ ràng.
 
+Đặc điểm:
+
+- Higher High
+- Higher Low
+- Momentum dương
+- Value dịch lên
+
 ---
 
 ## Bear Trend
 
 Xu hướng giảm rõ ràng.
 
+Đặc điểm:
+
+- Lower High
+- Lower Low
+- Momentum âm
+- Value dịch xuống
+
 ---
 
 ## Range
 
-Thị trường đi ngang.
+Thị trường cân bằng.
+
+Đặc điểm:
+
+- Value ổn định
+- Auction hai chiều
+- Thiếu Momentum
 
 ---
 
@@ -28,26 +48,45 @@ Thị trường đi ngang.
 
 Thị trường đang chuyển pha.
 
+Đặc điểm:
+
+- Auction thay đổi
+- Momentum suy yếu hoặc hồi phục
+- Structure bắt đầu đổi
+- Value chưa xác nhận
+
 ---
 
 ## Expansion
 
-Biên độ mở rộng.
+Biến động mở rộng.
+
+Đặc điểm:
+
+- Auction mạnh
+- Momentum tăng
+- Volatility mở rộng
 
 ---
 
 ## Compression
 
-Biên độ thu hẹp.
+Biến động thu hẹp.
+
+Đặc điểm:
+
+- Auction cân bằng
+- Momentum thấp
+- Volatility giảm
 
 ---
 
 # Nguyên tắc
 
-Market Context mô tả bối cảnh.
+State mô tả bối cảnh hiện tại.
 
-Không mô tả lực.
+Một thời điểm chỉ có một Market Context chính.
 
-Không mô tả vị trí giá.
+State chỉ thay đổi khi có đủ bằng chứng.
 
-Không đưa ra Decision.
+Transition là trạng thái hợp lệ.
