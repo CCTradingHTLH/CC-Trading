@@ -84,30 +84,71 @@ Quan sát Auction và Execution.
 
 # Quan sát mối quan hệ
 
-□ Giá nằm trên hay dưới POC Volume Profile?
-
 □ Giá nằm trên hay dưới Auction POC?
+
+□ Giá nằm trên hay dưới POC Volume Profile?
 
 □ Hai POC đang đồng thuận?
 
 □ Hai POC đang phân kỳ?
 
-□ Value đang ủng hộ hay mâu thuẫn với Auction?
+□ Giá đang nằm trong Value hay ngoài Value?
+
+□ Auction xác nhận hay phủ nhận Value?
+
+---
+
+# Quan sát vùng quyết định
+
+□ EMA
+
+□ Fibonacci
+
+□ Support / Resistance
+
+□ Value Area
+
+□ Previous High / Low
+
+□ Liquidity
 
 ---
 
 # Nguyên tắc
 
-Khung lớn luôn có trọng số cao hơn khung nhỏ.
+Khung lớn quyết định bối cảnh.
+
+Khung nhỏ quyết định thời điểm.
 
 Khung nhỏ không được phép phủ nhận khung lớn.
 
-Khung nhỏ chỉ dùng để tinh chỉnh thời điểm.
+Auction được dùng để giải thích Context.
 
-Market Context luôn được đọc trước.
+Volume Profile được dùng để xác nhận Value.
 
-Auction dùng để giải thích Context.
-
-Volume Profile dùng để xác nhận Value.
+Context luôn được đọc trước.
 
 Không đảo ngược thứ tự quan sát.
+
+---
+
+# Nguyên lý chuyển trạng thái
+
+Trong phần lớn thời gian:
+
+Khung lớn sinh xu hướng.
+
+Khung nhỏ vận động theo xu hướng đó.
+
+Ngoại lệ:
+
+Khi khung lớn tiến vào vùng quyết định
+(EMA, Fibonacci, Support / Resistance, Value...)
+
+thì tín hiệu đầu tiên của sự chuyển trạng thái
+luôn xuất hiện ở khung nhỏ.
+
+Khung nhỏ không tạo ra xu hướng mới.
+
+Khung nhỏ chỉ báo hiệu rằng
+khung lớn đang chuẩn bị đổi trạng thái.
