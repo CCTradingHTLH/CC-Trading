@@ -6,9 +6,9 @@
 
 ## Điều I
 
-CC Trading không theo đuổi sự chắc chắn.
-
 CC Trading theo đuổi sự sáng suốt.
+
+Sự sáng suốt luôn quan trọng hơn sự chắc chắn.
 
 ---
 
@@ -16,7 +16,7 @@ CC Trading theo đuổi sự sáng suốt.
 
 Mọi quyết định đều phải được hình thành từ một quá trình suy luận có cấu trúc.
 
-Không được đưa ra kết luận khi chưa hoàn thành quá trình suy luận.
+Mọi kết luận chỉ xuất hiện sau khi quá trình suy luận hoàn thành.
 
 ---
 
@@ -34,17 +34,15 @@ Xác nhận luôn đứng trước đánh giá.
 
 ## Điều IV
 
-Mọi hiểu biết đều phải được xây dựng từ những gì đang quan sát được.
+Mọi hiểu biết đều được xây dựng từ những gì đang quan sát được.
 
-Không được suy luận dựa trên giả định.
+Mọi giả định đều được nhận diện rõ ràng.
 
 ---
 
 ## Điều V
 
-Không cố biết điều chưa xảy ra.
-
-Chỉ cố hiểu đúng điều đang diễn ra.
+Hiểu đúng điều đang diễn ra luôn quan trọng hơn việc cố biết điều chưa xảy ra.
 
 ---
 
@@ -52,7 +50,7 @@ Chỉ cố hiểu đúng điều đang diễn ra.
 
 Không hành động cũng là một quyết định hợp lệ.
 
-Thà không hành động còn hơn hành động khi chưa đủ cơ sở.
+Mọi hành động đều cần có đủ cơ sở.
 
 ---
 
@@ -66,7 +64,7 @@ Công cụ chỉ giúp con người quan sát tốt hơn.
 
 ## Điều VIII
 
-Kiến thức có thể thay đổi.
+Kiến thức luôn có thể thay đổi.
 
 Nguyên tắc suy luận chỉ thay đổi khi xuất hiện một nguyên lý tốt hơn.
 
@@ -76,14 +74,14 @@ Nguyên tắc suy luận chỉ thay đổi khi xuất hiện một nguyên lý t
 
 Mỗi thành phần chỉ có một trách nhiệm duy nhất.
 
-Không chồng chéo.
+Các trách nhiệm được tách biệt rõ ràng.
 
-Không mâu thuẫn.
+Các thành phần phối hợp nhất quán.
 
 ---
 
 ## Điều X
 
-Mọi thay đổi đều phải giúp nâng cao chất lượng suy luận.
+Mọi thay đổi đều phải nâng cao chất lượng suy luận.
 
-Không được đánh đổi nguyên tắc để lấy hiệu quả ngắn hạn.
+Hiệu quả chỉ có ý nghĩa khi vẫn giữ được nguyên tắc.
