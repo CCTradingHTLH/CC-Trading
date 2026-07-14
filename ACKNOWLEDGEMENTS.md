@@ -42,6 +42,6 @@ Nhưng hy vọng rằng một điều sẽ luôn được giữ nguyên.
 
 > **Theo đuổi sự sáng suốt trong mọi quyết định.**
 
-Một hệ thống chỉ thật sự trưởng thành khi nó có thể tiếp tục phát triển mà không phụ thuộc vào người đã tạo ra nó.
+Sự sáng suốt bắt đầu khi ta sẵn sàng để điều đang hiện diện được nhìn thấy đúng như nó là.
 
 Đó cũng là điều mà CC Trading luôn hướng tới.
