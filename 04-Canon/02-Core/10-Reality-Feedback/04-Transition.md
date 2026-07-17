@@ -2,9 +2,9 @@
 
 ---
 
-## Mục tiêu
+## Mục đích
 
-Transition mô tả cách Reality Feedback thay đổi.
+Transition mô tả cách Reality Feedback tạo ra tri thức mới.
 
 ---
 
@@ -40,11 +40,17 @@ Unexpected
 
 New Observation
 
+↓
+
+Knowledge Updated
+
 ---
 
 ## Nguyên tắc
 
 Reality luôn mở đầu cho một chu kỳ suy luận mới.
+
+Reality Feedback biến thực tế thành tri thức.
 
 ---
 

@@ -6,9 +6,7 @@
 
 # Mục đích
 
-Reality Feedback quan sát kết quả thực tế sau khi kế hoạch được thực thi.
-
-Engine này không đánh giá thị trường.
+Reality Feedback quan sát kết quả thực tế sau khi Execution Plan được thực hiện.
 
 Engine này đánh giá sự phù hợp giữa:
 

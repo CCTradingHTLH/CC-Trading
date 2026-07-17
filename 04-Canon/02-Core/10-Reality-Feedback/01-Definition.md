@@ -6,21 +6,21 @@
 
 Reality Feedback so sánh:
 
-Scenario.
+Scenario
 
 ↓
 
-Execution.
+Execution Plan
 
 ↓
 
-Reality.
+Reality
 
 ---
 
-Engine này ghi nhận sự thật.
+Reality Feedback ghi nhận kết quả thực tế.
 
-Engine này không bảo vệ kết luận trước đó.
+Reality Feedback đánh giá sự phù hợp giữa Scenario, Execution Plan và Reality.
 
 ---
 
@@ -51,6 +51,8 @@ Học hỏi.
 ## Đầu ra
 
 Reality Feedback.
+
+Reality Feedback trở thành Observation của chu kỳ tiếp theo.
 
 ---
 

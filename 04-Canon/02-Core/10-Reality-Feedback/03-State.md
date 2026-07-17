@@ -2,9 +2,9 @@
 
 ---
 
-## Mục tiêu
+## Mục đích
 
-State phản ánh mức độ phù hợp giữa suy luận và thực tế.
+State phản ánh mức độ phù hợp giữa Scenario và Reality.
 
 ---
 
@@ -18,7 +18,7 @@ Reality xác nhận Scenario.
 
 ### Partially Confirmed
 
-Reality xác nhận một phần.
+Reality xác nhận một phần của Scenario.
 
 ---
 
@@ -30,8 +30,8 @@ Reality phủ nhận Scenario.
 
 ### Unexpected
 
-Reality tạo ra một hướng phát triển mới.
+Reality tạo ra một Scenario mới.
 
 ---
 
-> State phản ánh mối quan hệ giữa suy luận và thực tế.
+> State phản ánh mối quan hệ giữa Scenario và Reality.

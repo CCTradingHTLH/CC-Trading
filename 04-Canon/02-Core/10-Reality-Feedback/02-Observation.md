@@ -2,7 +2,7 @@
 
 ---
 
-## Mục tiêu
+## Mục đích
 
 Quan sát điều thực sự đã xảy ra.
 
@@ -10,17 +10,17 @@ Quan sát điều thực sự đã xảy ra.
 
 ## Quan sát
 
-Scenario xảy ra.
+Scenario Validation
 
-Scenario không xảy ra.
+Scenario Invalidation
 
-Execution đúng.
+Execution Quality
 
-Execution sai.
+Unexpected Behaviour
 
-Unexpected Events.
+Market Behaviour
 
-Market Behaviour.
+Actual Outcome
 
 ---
 
@@ -28,7 +28,7 @@ Market Behaviour.
 
 Reality luôn có độ ưu tiên cao nhất.
 
-Reality cập nhật toàn bộ Canon.
+Reality Feedback cập nhật tri thức của Canon.
 
 ---
 

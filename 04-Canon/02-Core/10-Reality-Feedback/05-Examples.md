@@ -12,7 +12,7 @@ Bull Continuation
 
 Reality
 
-Bull Continuation xảy ra.
+Bull Continuation.
 
 ↓
 
@@ -62,4 +62,4 @@ Unexpected.
 
 ---
 
-> Mọi kết quả đều trở thành dữ liệu cho chu kỳ tiếp theo.
+> Mọi kết quả đều trở thành Observation của chu kỳ tiếp theo.
