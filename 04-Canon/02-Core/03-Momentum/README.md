@@ -6,29 +6,25 @@
 
 # Mục đích
 
-Momentum mô tả cách lực thị trường đang thay đổi.
+Momentum mô tả sự thay đổi của lực thị trường.
 
-Engine này không đánh giá cấu trúc.
+Engine này chuẩn hóa động lượng hiện tại.
 
-Engine này không tạo quyết định.
-
-Momentum chỉ phản ánh nhịp điệu của thị trường.
+Momentum tạo nền tảng cho Engine 04 · Structure.
 
 ---
 
 # Câu hỏi
 
-Lực đang mạnh lên, yếu đi hay đảo chiều?
+Lực đang mạnh lên, yếu đi hay đổi hướng?
 
 ---
 
 # Đầu vào
 
-Auction.
+Observation từ Engine 01 · Auction.
 
-↓
-
-Market Context.
+Context từ Engine 02 · Market Context.
 
 ---
 
@@ -36,7 +32,7 @@ Market Context.
 
 Momentum State.
 
-Momentum State trở thành đầu vào của Structure.
+Momentum State trở thành đầu vào của Engine 04 · Structure.
 
 ---
 
@@ -62,26 +58,36 @@ Structure
 
 01 · Definition
 
+Định nghĩa bản chất của Momentum.
+
 ↓
 
 02 · Observation
+
+Chuẩn hóa các tín hiệu phản ánh động lượng.
 
 ↓
 
 03 · State
 
+Định nghĩa các trạng thái của Momentum.
+
 ↓
 
 04 · Transition
+
+Định nghĩa cách Momentum chuyển đổi giữa các trạng thái.
 
 ↓
 
 05 · Examples
 
+Ví dụ thực tế.
+
 ---
 
 # Triết lý
 
-Lực luôn thay đổi trước.
+Lực thay đổi trước.
 
 Cấu trúc xác nhận sau.

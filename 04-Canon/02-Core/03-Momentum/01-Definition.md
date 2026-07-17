@@ -1,22 +1,20 @@
 # Definition
 
+> Bản chất của Momentum.
+
 ---
 
 ## Bản chất
 
-Momentum phản ánh tốc độ thay đổi của lực.
+Momentum phản ánh tốc độ thay đổi của lực thị trường.
 
-Momentum không phản ánh vị trí.
-
-Momentum không phản ánh xu hướng.
-
-Momentum phản ánh nhịp vận động của thị trường.
+Momentum phản ánh nhịp vận động của thị trường theo thời gian.
 
 ---
 
 ## Thành phần
 
-Momentum được hình thành từ:
+Momentum được quan sát thông qua:
 
 - Delta
 - CVD
@@ -27,6 +25,8 @@ Momentum được hình thành từ:
 - RSI
 - EMA Slope
 - Velocity
+
+Những thành phần này cùng phản ánh sự thay đổi của lực thị trường.
 
 ---
 
@@ -42,8 +42,10 @@ Chuẩn hóa.
 
 ## Đầu ra
 
-Momentum State.
+Momentum tạo ra Momentum State.
+
+Momentum State trở thành đầu vào của Engine 04 · Structure.
 
 ---
 
-> Momentum phản ánh lực.
+> Momentum phản ánh sự thay đổi của lực.

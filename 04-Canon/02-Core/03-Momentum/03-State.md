@@ -2,9 +2,11 @@
 
 ---
 
-## Mục tiêu
+## Mục đích
 
-State mô tả trạng thái hiện tại của lực.
+State mô tả trạng thái hiện tại của Momentum.
+
+Mỗi State phản ánh sự thay đổi của lực thị trường.
 
 ---
 
@@ -12,44 +14,52 @@ State mô tả trạng thái hiện tại của lực.
 
 ### Bull Momentum
 
-Lực mua tăng.
+Lực mua đang chiếm ưu thế.
 
 ---
 
 ### Bear Momentum
 
-Lực bán tăng.
-
----
-
-### Weakening
-
-Lực suy yếu.
+Lực bán đang chiếm ưu thế.
 
 ---
 
 ### Strengthening
 
-Lực gia tăng.
+Động lượng đang gia tăng.
+
+---
+
+### Weakening
+
+Động lượng đang suy yếu.
 
 ---
 
 ### Exhaustion
 
-Lực cạn dần.
+Động lượng đang cạn dần.
 
 ---
 
 ### Divergence
 
-Lực và giá bắt đầu tách nhau.
+Động lượng và Price bắt đầu phân kỳ.
 
 ---
 
 ### Neutral
 
-Lực cân bằng.
+Động lượng cân bằng.
 
 ---
 
-> State phản ánh sức mạnh hiện tại.
+## Nguyên tắc
+
+State phản ánh động lượng hiện tại.
+
+State có thể thay đổi khi Momentum thay đổi.
+
+---
+
+> State phản ánh trạng thái hiện tại của Momentum.

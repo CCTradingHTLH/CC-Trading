@@ -2,61 +2,63 @@
 
 ---
 
-## Ví dụ 01
+## Ví dụ 01 · Bull Momentum · Strengthening
 
-Observation
+### Observation
 
-Delta tăng.
-
-CVD tăng.
-
-Volume tăng.
+- Delta tăng
+- CVD tăng
+- Volume tăng
 
 ↓
 
-State
+### Momentum State
 
-Bull Momentum.
-
-Strengthening.
+- Bull Momentum
+- Strengthening
 
 ---
 
-## Ví dụ 02
+## Ví dụ 02 · Bull Momentum · Divergence
 
-Observation
+### Observation
 
-Giá tăng.
-
-CVD giảm.
-
-RSI giảm.
+- Price tăng
+- CVD giảm
+- RSI giảm
 
 ↓
 
-State
+### Momentum State
 
-Bull Momentum.
-
-Divergence.
+- Bull Momentum
+- Divergence
 
 ---
 
-## Ví dụ 03
+## Ví dụ 03 · Weakening
 
-Observation
+### Observation
 
-Volume giảm.
-
-Delta giảm.
-
-Auction Flow yếu.
+- Volume giảm
+- Delta giảm
+- Auction Flow suy yếu
 
 ↓
 
-State
+### Momentum State
 
-Weakening.
+- Weakening
+
+---
+
+## Nguyên tắc
+
+Momentum phản ánh sự thay đổi của lực.
+
+Momentum mạnh chưa đồng nghĩa với Structure đã xác nhận.
+
+Momentum luôn được diễn giải trong Context hiện tại.
 
 ---
 
