@@ -1,20 +1,24 @@
 # Definition
 
+> Bản chất của Quality.
+
 ---
 
 ## Bản chất
 
-Quality phản ánh mức độ đồng thuận giữa các Engine.
+Quality phản ánh mức độ tin cậy của toàn bộ Pipeline.
 
-Quality không tạo tín hiệu mới.
+Quality được hình thành từ mức độ đồng thuận giữa các Engine.
 
-Quality đánh giá độ tin cậy của tín hiệu hiện có.
+Quality không tạo thêm bằng chứng.
+
+Quality đánh giá chất lượng của các bằng chứng hiện có.
 
 ---
 
 ## Thành phần
 
-Quality được hình thành từ:
+Quality được đánh giá thông qua:
 
 - Auction Alignment
 - Context Alignment
@@ -22,6 +26,8 @@ Quality được hình thành từ:
 - Structure Alignment
 - Multi-Timeframe Alignment
 - Risk Environment
+
+Những thành phần này cùng phản ánh mức độ nhất quán của toàn bộ Pipeline.
 
 ---
 
@@ -37,8 +43,10 @@ Lượng hóa.
 
 ## Đầu ra
 
-Quality State.
+Quality tạo ra Quality State.
+
+Quality State trở thành đầu vào của Engine 06 · Decision.
 
 ---
 
-> Quality phản ánh độ tin cậy của Pipeline.
+> Quality phản ánh độ tin cậy của toàn bộ Pipeline.

@@ -2,38 +2,35 @@
 
 ---
 
-## Mục tiêu
+## Mục đích
 
-Quan sát mức độ đồng thuận của toàn bộ Pipeline.
+Quan sát mức độ nhất quán của toàn bộ Pipeline.
+
+Observation phản ánh mức độ đồng thuận giữa các Engine.
 
 ---
 
 ## Quan sát
 
-Auction Alignment
-
-Market Context Alignment
-
-Momentum Alignment
-
-Structure Alignment
-
-Timeframe Alignment
-
-Risk Environment
-
-Conflict
-
-Confirmation
+- Auction Alignment
+- Market Context Alignment
+- Momentum Alignment
+- Structure Alignment
+- Multi-Timeframe Alignment
+- Risk Environment
+- Conflict
+- Confirmation
 
 ---
 
 ## Nguyên tắc
 
-Sự đồng thuận tạo nên chất lượng.
+Sự đồng thuận làm tăng độ tin cậy.
 
-Sự xung đột làm giảm chất lượng.
+Sự xung đột làm giảm độ tin cậy.
+
+Quality luôn được đánh giá trên toàn bộ Pipeline.
 
 ---
 
-> Quality phản ánh sự đồng thuận.
+> Quality phản ánh mức độ tin cậy của Pipeline.

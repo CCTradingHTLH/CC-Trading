@@ -2,9 +2,11 @@
 
 ---
 
-## Mục tiêu
+## Mục đích
 
-Transition mô tả sự thay đổi của Quality.
+Transition mô tả cách Quality chuyển từ State này sang State khác.
+
+Transition phản ánh sự thay đổi của mức độ tin cậy trong toàn bộ Pipeline.
 
 ---
 
@@ -48,8 +50,10 @@ Weak
 
 ## Nguyên tắc
 
-Quality thay đổi khi mức độ đồng thuận thay đổi.
+Quality thay đổi khi mức độ đồng thuận của Pipeline thay đổi.
+
+State chỉ chuyển đổi khi xuất hiện đủ bằng chứng mới.
 
 ---
 
-> Chất lượng thay đổi theo sự đồng thuận.
+> Transition phản ánh sự thay đổi của Quality.

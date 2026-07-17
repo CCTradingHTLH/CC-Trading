@@ -2,82 +2,98 @@
 
 ---
 
-## Ví dụ 01
+## Ví dụ 01 · Excellent
 
-Auction
+### Pipeline
 
-Bull
+Auction State
 
-Context
+- Buyer Dominant
 
-Bull
+Context State
 
-Momentum
+- Bull Trend
 
-Bull
+Momentum State
 
-Structure
+- Bull Momentum
 
-Bull
+Structure State
+
+- Bull Structure
 
 ↓
 
-Quality
+### Quality State
 
 Excellent
 
 ---
 
-## Ví dụ 02
+## Ví dụ 02 · Moderate
 
-Auction
+### Pipeline
 
-Bull
+Auction State
 
-Context
+- Buyer Dominant
 
-Bull
+Context State
 
-Momentum
+- Bull Trend
 
-Bear
+Momentum State
 
-Structure
+- Bear Momentum
 
-Bull
+Structure State
+
+- Bull Structure
 
 ↓
 
-Quality
+### Quality State
 
 Moderate
 
 ---
 
-## Ví dụ 03
+## Ví dụ 03 · Weak
 
-Auction
+### Pipeline
 
-Bear
+Auction State
 
-Context
+- Seller Dominant
 
-Bull
+Context State
 
-Momentum
+- Bull Trend
 
-Bull
+Momentum State
 
-Structure
+- Bull Momentum
 
-Range
+Structure State
+
+- Range Structure
 
 ↓
 
-Quality
+### Quality State
 
 Weak
 
 ---
 
-> Quality phản ánh mức độ nhất quán của toàn bộ Pipeline.
+## Nguyên tắc
+
+Quality phản ánh mức độ đồng thuận của toàn bộ Pipeline.
+
+Một Engine mạnh không đủ tạo nên Quality cao.
+
+Quality cao xuất hiện khi toàn bộ Pipeline cùng hướng tới một kết luận.
+
+---
+
+> Quality phản ánh mức độ tin cậy của toàn bộ Pipeline.

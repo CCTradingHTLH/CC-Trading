@@ -2,9 +2,9 @@
 
 ---
 
-## Mục tiêu
+## Mục đích
 
-State mô tả mức độ tin cậy hiện tại.
+State mô tả mức độ tin cậy hiện tại của toàn bộ Pipeline.
 
 ---
 
@@ -12,32 +12,40 @@ State mô tả mức độ tin cậy hiện tại.
 
 ### Excellent
 
-Đồng thuận rất mạnh.
+Toàn bộ Pipeline đồng thuận rất mạnh.
 
 ---
 
 ### Good
 
-Đồng thuận rõ ràng.
+Pipeline đồng thuận rõ ràng.
 
 ---
 
 ### Moderate
 
-Có đồng thuận nhưng còn thiếu xác nhận.
+Pipeline có sự đồng thuận nhưng vẫn còn thiếu xác nhận.
 
 ---
 
 ### Weak
 
-Có nhiều xung đột.
+Pipeline xuất hiện nhiều xung đột.
 
 ---
 
 ### Invalid
 
-Pipeline chưa đủ điều kiện tạo quyết định.
+Pipeline chưa đủ điều kiện để tạo Decision.
 
 ---
 
-> State phản ánh chất lượng hiện tại.
+## Nguyên tắc
+
+State phản ánh chất lượng hiện tại của Pipeline.
+
+State thay đổi khi mức độ đồng thuận thay đổi.
+
+---
+
+> State phản ánh mức độ tin cậy của Pipeline.
