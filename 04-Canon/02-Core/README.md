@@ -52,7 +52,7 @@ Engine 07 · Signal Weight
 
 ↓
 
-Engine 08 · Probability Engine
+Engine 08 · Scenario Space
 
 ↓
 
@@ -60,7 +60,11 @@ Engine 09 · Execution Planner
 
 ↓
 
-Engine 10 · Execution
+Engine 10 · Reality Feedback
+
+↓
+
+Observation
 
 ---
 
@@ -108,9 +112,9 @@ Xác định yếu tố ảnh hưởng lớn nhất đến kết luận.
 
 ---
 
-## Engine 08 · Probability Engine
+## Engine 08 · Scenario Space
 
-Ước lượng xác suất của từng kịch bản.
+Biểu diễn sự bất định bằng các kịch bản.
 
 ---
 
@@ -120,21 +124,21 @@ Chuyển kết luận thành kế hoạch thực thi.
 
 ---
 
-## Engine 10 · Execution
+## Engine 10 · Reality Feedback
 
-Thực thi, quan sát và học hỏi.
+Chuyển thực tế thành tri thức mới.
 
 ---
 
 # Quy luật
 
-Mỗi Engine có một trách nhiệm duy nhất.
+Mỗi Engine thực hiện một trách nhiệm duy nhất.
 
-Mỗi Engine chỉ tạo ra một loại đầu ra.
+Mỗi Engine tạo ra một loại đầu ra duy nhất.
 
-Mỗi Engine kế thừa toàn bộ Foundation.
+Mỗi Engine kế thừa cùng một Foundation.
 
-Mỗi Engine phục vụ Engine tiếp theo.
+Mỗi Engine phục vụ Engine tiếp theo trong Pipeline.
 
 ---
 
@@ -144,7 +148,7 @@ Một Engine.
 
 ↓
 
-Một nhiệm vụ.
+Một trách nhiệm.
 
 ↓
 
@@ -156,4 +160,4 @@ Một bước tiến gần hơn tới sự sáng suốt.
 
 ---
 
-> Core chuẩn hóa toàn bộ quá trình suy luận.
+> Một quá trình đúng tạo nên những quyết định đúng.
