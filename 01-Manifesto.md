@@ -14,7 +14,7 @@ Sự sáng suốt luôn quan trọng hơn sự chắc chắn.
 
 ## Điều II
 
-Mọi quyết định đều phải được hình thành từ một quá trình suy luận có cấu trúc.
+Mọi quyết định đều được hình thành từ một quá trình suy luận có cấu trúc.
 
 Mọi kết luận chỉ xuất hiện sau khi quá trình suy luận hoàn thành.
 
@@ -42,7 +42,7 @@ Mọi giả định đều được nhận diện rõ ràng.
 
 ## Điều V
 
-Hiểu đúng điều đang diễn ra luôn quan trọng hơn việc cố biết điều chưa xảy ra.
+Hiểu đúng điều đang diễn ra luôn quan trọng hơn việc dự đoán điều chưa xảy ra.
 
 ---
 
@@ -50,23 +50,23 @@ Hiểu đúng điều đang diễn ra luôn quan trọng hơn việc cố biết
 
 Không hành động cũng là một quyết định hợp lệ.
 
-Mọi hành động đều cần có đủ cơ sở.
+Mọi hành động đều được xây dựng trên đủ cơ sở.
 
 ---
 
 ## Điều VII
 
-Công cụ không phải mục tiêu.
+Công cụ phục vụ con người.
 
-Công cụ chỉ giúp con người quan sát tốt hơn.
+Con người sử dụng công cụ để quan sát, suy luận và học hỏi tốt hơn.
 
 ---
 
 ## Điều VIII
 
-Kiến thức luôn có thể thay đổi.
+Tri thức luôn phát triển.
 
-Nguyên tắc suy luận chỉ thay đổi khi xuất hiện một nguyên lý tốt hơn.
+Nguyên lý chỉ thay đổi khi xuất hiện một nguyên lý tốt hơn.
 
 ---
 
@@ -82,6 +82,10 @@ Các thành phần phối hợp nhất quán.
 
 ## Điều X
 
-Mọi thay đổi đều phải nâng cao chất lượng suy luận.
+Mọi thay đổi đều hướng tới việc nâng cao chất lượng suy luận.
 
-Hiệu quả chỉ có ý nghĩa khi vẫn giữ được nguyên tắc.
+Hiệu quả luôn được xây dựng trên nền tảng của nguyên tắc.
+
+---
+
+> In Pursuit of Clarity.
