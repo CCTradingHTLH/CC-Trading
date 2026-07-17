@@ -1,10 +1,12 @@
 # Definition
 
+> Bản chất của Market Context.
+
 ---
 
 ## Bản chất
 
-Market Context mô tả môi trường mà Auction đang diễn ra.
+Market Context mô tả bối cảnh mà Auction đang diễn ra.
 
 Context xác định ý nghĩa của Observation.
 
@@ -12,33 +14,35 @@ Context xác định ý nghĩa của Observation.
 
 ## Thành phần
 
-Context được hình thành từ:
+Market Context được quan sát thông qua:
 
-- Xu hướng đa khung
-- Vị trí trong cấu trúc
+- Xu hướng đa khung thời gian
+- Vị trí trong cấu trúc thị trường
 - EMA
 - Support / Resistance
 - Fibonacci
 - Volume Profile
-- POC
+- POC30
 - Liquidity
 - Macro Environment
+
+Những thành phần này cùng mô tả môi trường của thị trường.
 
 ---
 
 ## Mục tiêu
 
-Định nghĩa môi trường.
+Định nghĩa bối cảnh.
 
-Không tạo kết luận.
+Chuẩn hóa Context.
 
 ---
 
 ## Đầu ra
 
-Market Context tạo ra Context.
+Market Context tạo ra Context chuẩn hóa.
 
-Context trở thành đầu vào của Momentum.
+Context trở thành đầu vào của Engine 03 · Momentum.
 
 ---
 

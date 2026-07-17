@@ -2,9 +2,11 @@
 
 ---
 
-## Mục tiêu
+## Mục đích
 
-State mô tả trạng thái hiện tại của môi trường.
+State mô tả trạng thái hiện tại của Market Context.
+
+Mỗi State phản ánh môi trường mà hành vi thị trường đang diễn ra.
 
 ---
 
@@ -12,43 +14,51 @@ State mô tả trạng thái hiện tại của môi trường.
 
 ### Bull Trend
 
-Xu hướng tăng.
+Bối cảnh thị trường ưu tiên xu hướng tăng.
 
 ---
 
 ### Bear Trend
 
-Xu hướng giảm.
+Bối cảnh thị trường ưu tiên xu hướng giảm.
 
 ---
 
 ### Range
 
-Thị trường cân bằng.
+Bối cảnh thị trường cân bằng.
 
 ---
 
 ### Expansion
 
-Thị trường mở rộng.
+Thị trường đang mở rộng khỏi vùng giá trị trước đó.
 
 ---
 
 ### Compression
 
-Thị trường tích lũy.
+Thị trường đang tích lũy trong một vùng giá hẹp.
 
 ---
 
 ### High Risk Zone
 
-Thị trường đang ở vùng có xác suất đảo chiều cao.
+Thị trường đang ở vùng có khả năng Transition cao.
 
 ---
 
 ### Low Risk Zone
 
-Thị trường đang ở vùng tiếp diễn thuận lợi.
+Thị trường đang ở vùng thuận lợi cho xu hướng hiện tại tiếp diễn.
+
+---
+
+## Nguyên tắc
+
+State phản ánh bối cảnh hiện tại.
+
+State có thể thay đổi khi Context thay đổi.
 
 ---
 
