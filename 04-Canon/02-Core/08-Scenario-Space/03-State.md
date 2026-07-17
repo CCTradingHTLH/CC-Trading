@@ -4,7 +4,7 @@
 
 ## Mục tiêu
 
-State phản ánh cấu trúc hiện tại của toàn bộ Scenario Space.
+State phản ánh cấu trúc hiện tại của Scenario Space.
 
 ---
 
@@ -12,7 +12,7 @@ State phản ánh cấu trúc hiện tại của toàn bộ Scenario Space.
 
 ### Dominant Scenario
 
-Một Scenario chiếm ưu thế rõ ràng.
+Một Scenario chiếm ưu thế.
 
 ---
 
@@ -34,4 +34,4 @@ Không có Scenario nổi bật.
 
 ---
 
-> State phản ánh cấu trúc của không gian khả năng.
+> State phản ánh cấu trúc hiện tại của Scenario Space.

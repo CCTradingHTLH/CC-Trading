@@ -2,7 +2,7 @@
 
 ---
 
-## Mục tiêu
+## Mục đích
 
 Transition mô tả sự thay đổi của Scenario Space.
 
@@ -38,6 +38,8 @@ Scenario Invalidated
 
 Scenario Space thay đổi khi bằng chứng thay đổi.
 
+Scenario chỉ thay đổi khi có đủ bằng chứng mới.
+
 ---
 
-> Không gian khả năng luôn vận động cùng thị trường.
+> Scenario Space thay đổi cùng bằng chứng.

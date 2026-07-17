@@ -6,50 +6,50 @@
 
 # Mục đích
 
-Scenario Space xây dựng toàn bộ các kịch bản có thể xảy ra từ trạng thái hiện tại của thị trường.
+Scenario Space biểu diễn các kịch bản có thể xảy ra từ trạng thái hiện tại của thị trường.
 
 Mỗi kịch bản được mô tả bằng:
 
 - Logic
 - Điều kiện
-- Xác suất
+- Khả năng
 - Trạng thái vô hiệu
 
 ---
 
 # Câu hỏi
 
-Những khả năng nào đang tồn tại?
+Những kịch bản nào đang tồn tại?
 
 ---
 
 # Đầu vào
 
-Auction
+Auction State.
 
 ↓
 
-Market Context
+Context State.
 
 ↓
 
-Momentum
+Momentum State.
 
 ↓
 
-Structure
+Structure State.
 
 ↓
 
-Quality
+Quality State.
 
 ↓
 
-Decision
+Decision State.
 
 ↓
 
-Signal Weight
+Signal Weight.
 
 ---
 
@@ -57,7 +57,7 @@ Signal Weight
 
 Scenario Space.
 
-Scenario Space trở thành đầu vào của Execution Planner.
+Scenario Space trở thành đầu vào của Engine 09 · Execution Planner.
 
 ---
 
@@ -79,21 +79,31 @@ Execution Planner
 
 01 · Definition
 
+Định nghĩa bản chất của Scenario Space.
+
 ↓
 
 02 · Observation
+
+Quan sát các kịch bản hiện có.
 
 ↓
 
 03 · State
 
+Định nghĩa trạng thái của từng kịch bản.
+
 ↓
 
 04 · Transition
 
+Định nghĩa cách các kịch bản thay đổi.
+
 ↓
 
 05 · Examples
+
+Ví dụ thực tế.
 
 ---
 

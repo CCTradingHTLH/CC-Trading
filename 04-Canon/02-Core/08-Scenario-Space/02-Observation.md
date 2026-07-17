@@ -2,9 +2,9 @@
 
 ---
 
-## Mục tiêu
+## Mục đích
 
-Quan sát toàn bộ các kịch bản hợp lý tại thời điểm hiện tại.
+Quan sát toàn bộ các Scenario hợp lý tại thời điểm hiện tại.
 
 ---
 
@@ -16,9 +16,9 @@ Scenario Conditions
 
 Scenario Probability
 
-Scenario Conflict
-
 Scenario Alignment
+
+Scenario Conflict
 
 Scenario Invalidation
 
@@ -26,10 +26,10 @@ Scenario Invalidation
 
 ## Nguyên tắc
 
-Một thời điểm có thể tồn tại nhiều Scenario.
+Nhiều Scenario có thể cùng tồn tại.
 
-Scenario Space mô tả mối quan hệ giữa chúng.
+Scenario Space biểu diễn mối quan hệ giữa các Scenario.
 
 ---
 
-> Thị trường luôn tồn tại nhiều khả năng đồng thời.
+> Thị trường luôn tồn tại nhiều Scenario đồng thời.

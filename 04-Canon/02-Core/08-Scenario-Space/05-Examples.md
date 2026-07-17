@@ -14,7 +14,7 @@ Conditions
 
 - Auction Bull
 - Momentum Strong
-- Structure Bull
+- Bull Structure
 
 Invalidation
 
@@ -32,7 +32,7 @@ Probability
 
 Conditions
 
-- Momentum giảm
+- Momentum Weakening
 - Volume cân bằng
 
 Invalidation
@@ -51,8 +51,8 @@ Probability
 
 Conditions
 
-- Momentum đảo chiều
-- Structure Break
+- Momentum Reversal
+- Bear Structure
 
 Invalidation
 
@@ -60,4 +60,4 @@ Higher High mới.
 
 ---
 
-> Scenario Space mô tả toàn bộ các khả năng hiện tại của thị trường.
+> Scenario Space biểu diễn toàn bộ các Scenario hợp lý tại thời điểm hiện tại.

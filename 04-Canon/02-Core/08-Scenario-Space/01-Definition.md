@@ -4,7 +4,7 @@
 
 ## Bản chất
 
-Scenario Space mô hình hóa toàn bộ các khả năng đang tồn tại.
+Scenario Space biểu diễn các khả năng đang tồn tại.
 
 Mỗi Scenario đại diện cho một hướng phát triển hợp lý của thị trường.
 
@@ -35,6 +35,8 @@ Chuẩn hóa.
 ## Đầu ra
 
 Scenario Space.
+
+Scenario Space trở thành đầu vào của Engine 09 · Execution Planner.
 
 ---
 
