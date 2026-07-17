@@ -4,9 +4,11 @@
 
 ## Bản chất
 
-Decision là kết quả cuối cùng của toàn bộ quá trình suy luận.
+Decision là kết quả của toàn bộ quá trình suy luận.
 
-Decision phản ánh kết luận hợp lý nhất dựa trên bằng chứng hiện có.
+Decision phản ánh kết luận hợp lý nhất dựa trên các bằng chứng hiện có.
+
+Decision tổng hợp các bằng chứng thành một kết luận duy nhất.
 
 ---
 
@@ -14,11 +16,13 @@ Decision phản ánh kết luận hợp lý nhất dựa trên bằng chứng hi
 
 Decision được hình thành từ:
 
-- Auction
-- Market Context
-- Momentum
-- Structure
-- Quality
+- Auction State
+- Context State
+- Momentum State
+- Structure State
+- Quality State
+
+Những thành phần này cùng tạo nên Decision.
 
 ---
 
@@ -34,7 +38,9 @@ Kết luận.
 
 ## Đầu ra
 
-Decision State.
+Decision tạo ra Decision State.
+
+Decision State trở thành đầu vào của Engine 07 · Signal Weight.
 
 ---
 

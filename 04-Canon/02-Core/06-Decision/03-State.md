@@ -2,9 +2,9 @@
 
 ---
 
-## Mục tiêu
+## Mục đích
 
-State mô tả kết luận hiện tại.
+State mô tả kết luận hiện tại của Canon.
 
 ---
 
@@ -24,13 +24,21 @@ State mô tả kết luận hiện tại.
 
 ### Neutral Bias
 
-Ưu tiên quan sát thêm.
+Ưu tiên tiếp tục quan sát.
 
 ---
 
 ### No Trade
 
-Điều kiện chưa đủ để tạo kế hoạch giao dịch.
+Chưa đủ điều kiện để tạo Execution Plan.
+
+---
+
+## Nguyên tắc
+
+Decision chỉ có một State tại một thời điểm.
+
+State thay đổi khi bằng chứng thay đổi.
 
 ---
 

@@ -6,9 +6,9 @@
 
 # Mục đích
 
-Decision tổng hợp toàn bộ kết quả từ các Engine trước đó.
+Decision tổng hợp toàn bộ bằng chứng từ các Engine trước đó.
 
-Engine này tạo ra kết luận cuối cùng của Canon.
+Decision tạo ra kết luận hiện tại của Canon.
 
 ---
 
@@ -20,23 +20,23 @@ Kết luận hợp lý nhất tại thời điểm hiện tại là gì?
 
 # Đầu vào
 
-Auction
+Auction State.
 
 ↓
 
-Market Context
+Context State.
 
 ↓
 
-Momentum
+Momentum State.
 
 ↓
 
-Structure
+Structure State.
 
 ↓
 
-Quality
+Quality State.
 
 ---
 
@@ -44,7 +44,7 @@ Quality
 
 Decision State.
 
-Decision State trở thành đầu vào của Signal Weight.
+Decision State trở thành đầu vào của Engine 07 · Signal Weight.
 
 ---
 
@@ -66,21 +66,31 @@ Signal Weight
 
 01 · Definition
 
+Định nghĩa bản chất của Decision.
+
 ↓
 
 02 · Observation
+
+Quan sát các bằng chứng đầu vào.
 
 ↓
 
 03 · State
 
+Định nghĩa các trạng thái của Decision.
+
 ↓
 
 04 · Transition
 
+Định nghĩa cách Decision chuyển đổi giữa các trạng thái.
+
 ↓
 
 05 · Examples
+
+Ví dụ thực tế.
 
 ---
 

@@ -2,15 +2,17 @@
 
 ---
 
-## Mục tiêu
+## Mục đích
 
-Transition mô tả cách Decision thay đổi.
+Transition mô tả cách Decision chuyển từ State này sang State khác.
+
+Transition phản ánh sự thay đổi của kết luận khi bằng chứng thay đổi.
 
 ---
 
 ## Ví dụ
 
-Neutral
+Neutral Bias
 
 ↓
 
@@ -22,7 +24,7 @@ Bull Bias
 
 ↓
 
-Neutral
+Neutral Bias
 
 ---
 
@@ -38,7 +40,7 @@ No Trade
 
 ↓
 
-Neutral
+Neutral Bias
 
 ↓
 
@@ -50,6 +52,8 @@ Bull Bias
 
 Decision thay đổi khi bằng chứng thay đổi.
 
+State chỉ chuyển đổi khi xuất hiện đủ bằng chứng mới.
+
 ---
 
-> Kết luận thay đổi cùng bằng chứng.
+> Transition phản ánh sự thay đổi của Decision.

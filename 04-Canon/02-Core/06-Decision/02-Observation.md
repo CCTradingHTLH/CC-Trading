@@ -2,32 +2,32 @@
 
 ---
 
-## Mục tiêu
+## Mục đích
 
-Quan sát mức độ đồng thuận của toàn bộ Pipeline trước khi tạo kết luận.
+Quan sát toàn bộ bằng chứng trước khi tạo kết luận.
+
+Observation tổng hợp các State từ những Engine trước đó.
 
 ---
 
 ## Quan sát
 
-Auction
-
-Market Context
-
-Momentum
-
-Structure
-
-Quality
+- Auction State
+- Context State
+- Momentum State
+- Structure State
+- Quality State
 
 ---
 
 ## Nguyên tắc
 
-Decision luôn kế thừa kết quả của toàn bộ Pipeline.
+Decision luôn kế thừa toàn bộ Pipeline.
 
-Một kết luận chỉ tồn tại khi toàn bộ Pipeline đã hoàn thành.
+Decision chỉ được tạo khi toàn bộ Pipeline đã hoàn thành.
+
+Decision luôn phản ánh bằng chứng hiện có.
 
 ---
 
-> Decision kế thừa toàn bộ Pipeline.
+> Decision được xây dựng từ toàn bộ Pipeline.

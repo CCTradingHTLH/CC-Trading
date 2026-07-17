@@ -4,29 +4,31 @@
 
 ## Ví dụ 01
 
-Auction
+### Pipeline
 
-Bull
+Auction State
 
-Context
+Buyer Dominant
 
-Bull
+Context State
 
-Momentum
+Bull Trend
 
-Bull
+Momentum State
 
-Structure
+Bull Momentum
 
-Bull
+Structure State
 
-Quality
+Bull Structure
+
+Quality State
 
 Excellent
 
 ↓
 
-Decision
+### Decision State
 
 Bull Bias
 
@@ -34,29 +36,31 @@ Bull Bias
 
 ## Ví dụ 02
 
-Auction
+### Pipeline
 
-Bull
+Auction State
 
-Context
+Buyer Dominant
 
-Bull
+Context State
 
-Momentum
+Bull Trend
 
-Bear
+Momentum State
 
-Structure
+Bear Momentum
 
-Bull
+Structure State
 
-Quality
+Bull Structure
+
+Quality State
 
 Moderate
 
 ↓
 
-Decision
+### Decision State
 
 Neutral Bias
 
@@ -64,29 +68,31 @@ Neutral Bias
 
 ## Ví dụ 03
 
-Auction
+### Pipeline
 
-Bear
+Auction State
 
-Context
+Seller Dominant
 
-Bear
+Context State
 
-Momentum
+Bear Trend
 
-Bear
+Momentum State
 
-Structure
+Bear Momentum
 
-Bear
+Structure State
 
-Quality
+Bear Structure
+
+Quality State
 
 Excellent
 
 ↓
 
-Decision
+### Decision State
 
 Bear Bias
 
@@ -94,16 +100,26 @@ Bear Bias
 
 ## Ví dụ 04
 
-Quality
+### Pipeline
+
+Quality State
 
 Weak
 
 ↓
 
-Decision
+### Decision State
 
 No Trade
 
 ---
 
-> Decision luôn phản ánh kết luận hợp lý nhất tại thời điểm hiện tại.
+## Nguyên tắc
+
+Decision luôn được xây dựng từ toàn bộ Pipeline.
+
+Decision chỉ phản ánh kết luận hợp lý nhất tại thời điểm hiện tại.
+
+---
+
+> Decision phản ánh kết luận hiện tại của Canon.
