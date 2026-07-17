@@ -2,15 +2,17 @@
 
 ---
 
-## Mục tiêu
+## Mục đích
 
-Transition mô tả cách Structure thay đổi.
+Transition mô tả cách Structure chuyển từ State này sang State khác.
+
+Transition phản ánh sự thay đổi của cấu trúc thị trường theo thời gian.
 
 ---
 
 ## Ví dụ
 
-Range
+Range Structure
 
 ↓
 
@@ -34,7 +36,7 @@ Failure
 
 ↓
 
-Range
+Range Structure
 
 ---
 
@@ -56,10 +58,14 @@ Bear Structure
 
 ## Nguyên tắc
 
+Mọi Transition đều bắt đầu từ Structure mới.
+
+State chỉ chuyển đổi khi có đủ bằng chứng.
+
 Momentum thay đổi trước.
 
 Structure xác nhận sau.
 
 ---
 
-> Structure là dấu vết mà Momentum để lại.
+> Transition phản ánh sự thay đổi của Structure.

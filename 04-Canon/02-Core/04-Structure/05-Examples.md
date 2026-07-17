@@ -2,58 +2,75 @@
 
 ---
 
-## Ví dụ 01
+## Ví dụ 01 · Bull Structure
 
-Observation
+### Đầu vào
 
-Bull Momentum.
+Momentum State
 
-Break.
+- Bull Momentum
 
-Acceptance.
+### Observation
 
-↓
-
-State
-
-Bull Structure.
-
----
-
-## Ví dụ 02
-
-Observation
-
-Bull Momentum.
-
-Break.
-
-Failure.
+- Break
+- Acceptance
 
 ↓
 
-State
+### Structure State
 
-Range.
+- Bull Structure
 
 ---
 
-## Ví dụ 03
+## Ví dụ 02 · Range Structure
 
-Observation
+### Đầu vào
 
-Bear Momentum.
+Momentum State
 
-Liquidity Sweep.
+- Bull Momentum
 
-Acceptance.
+### Observation
+
+- Break
+- Failure
 
 ↓
 
-State
+### Structure State
 
-Bear Structure.
+- Range Structure
 
 ---
 
-> Structure xác nhận phản ứng của thị trường.
+## Ví dụ 03 · Bear Structure
+
+### Đầu vào
+
+Momentum State
+
+- Bear Momentum
+
+### Observation
+
+- Liquidity Sweep
+- Acceptance
+
+↓
+
+### Structure State
+
+- Bear Structure
+
+---
+
+## Nguyên tắc
+
+Structure xác nhận kết quả của Momentum.
+
+Structure mạnh khi Observation phù hợp với Momentum và Context.
+
+---
+
+> Structure xác nhận kết quả mà Momentum tạo ra.

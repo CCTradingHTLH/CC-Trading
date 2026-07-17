@@ -1,10 +1,12 @@
 # Definition
 
+> Bản chất của Structure.
+
 ---
 
 ## Bản chất
 
-Structure phản ánh cách thị trường tổ chức lại sau khi lực thay đổi.
+Structure phản ánh cách cấu trúc thị trường thay đổi trước sự thay đổi của Momentum.
 
 Structure xác nhận kết quả mà Momentum tạo ra.
 
@@ -12,7 +14,7 @@ Structure xác nhận kết quả mà Momentum tạo ra.
 
 ## Thành phần
 
-Structure được hình thành từ:
+Structure được quan sát thông qua:
 
 - Swing
 - Break
@@ -21,6 +23,8 @@ Structure được hình thành từ:
 - Acceptance
 - Rejection
 - Range Development
+
+Những thành phần này cùng phản ánh sự thay đổi của cấu trúc thị trường.
 
 ---
 
@@ -36,8 +40,10 @@ Chuẩn hóa.
 
 ## Đầu ra
 
-Structure State.
+Structure tạo ra Structure State.
+
+Structure State trở thành đầu vào của Engine 05 · Quality.
 
 ---
 
-> Structure phản ánh kết quả của lực.
+> Structure phản ánh kết quả của Momentum.

@@ -6,29 +6,25 @@
 
 # Mục đích
 
-Structure mô tả cách thị trường tổ chức lại sau khi Momentum thay đổi.
+Structure mô tả cách cấu trúc thị trường phản ứng trước sự thay đổi của Momentum.
 
-Structure phản ánh kết quả mà lực tạo ra.
+Structure phản ánh kết quả mà động lượng tạo ra.
 
 ---
 
 # Câu hỏi
 
-Thị trường đã phản ứng như thế nào trước sự thay đổi của lực?
+Sự thay đổi của lực đã tạo ra thay đổi nào trên cấu trúc?
 
 ---
 
 # Đầu vào
 
-Auction.
+Observation từ Engine 01 · Auction.
 
-↓
+Context từ Engine 02 · Market Context.
 
-Market Context.
-
-↓
-
-Momentum.
+Momentum State từ Engine 03 · Momentum.
 
 ---
 
@@ -36,7 +32,7 @@ Momentum.
 
 Structure State.
 
-Structure State trở thành đầu vào của Quality.
+Structure State trở thành đầu vào của Engine 05 · Quality.
 
 ---
 
@@ -58,21 +54,31 @@ Quality
 
 01 · Definition
 
+Định nghĩa bản chất của Structure.
+
 ↓
 
 02 · Observation
+
+Chuẩn hóa các tín hiệu phản ánh cấu trúc.
 
 ↓
 
 03 · State
 
+Định nghĩa các trạng thái của Structure.
+
 ↓
 
 04 · Transition
 
+Định nghĩa cách Structure chuyển đổi giữa các trạng thái.
+
 ↓
 
 05 · Examples
+
+Ví dụ thực tế.
 
 ---
 
