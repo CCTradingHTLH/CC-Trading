@@ -1,14 +1,14 @@
 ---
 title: Market Image
 id: market-image
-version: 2.0
+version: 3.0
 status: Stable
 author: HTLH
 language: vi
 created: 2026-07-12
-last_updated: 2026-07-12
+last_updated: 2026-07-17
 review_cycle: Monthly
-confidence: 95%
+confidence: 100%
 tags:
   - input
   - market-image
@@ -16,33 +16,47 @@ tags:
 
 # Market Image
 
-> Market Image định nghĩa các nguồn quan sát của hệ thống.
+> Market Image định nghĩa các góc nhìn mà CC Trading sử dụng để quan sát thị trường.
 
 ---
 
 # Mục tiêu
 
-Chuẩn hóa cách thu thập dữ liệu từ thị trường.
+Chuẩn hóa cách hệ thống thu thập Observation từ nhiều nguồn khác nhau.
 
 Không phụ thuộc vào người sử dụng.
 
-Không phụ thuộc vào nền tảng.
+Không phụ thuộc vào nền tảng giao dịch.
+
+Không phụ thuộc vào một loại dữ liệu duy nhất.
 
 ---
 
 # Các nguồn quan sát
 
-## MC
+## Market Context
 
-**Market Context**
+Quan sát cấu trúc tổng thể của thị trường.
 
-Quan sát thị trường thông qua các biểu đồ nhiều khung thời gian.
+Ví dụ:
+
+- Multi-Timeframe
+- Trend
+- Range
+- Key Levels
 
 ---
 
 ## Derivatives
 
-Quan sát thị trường phái sinh.
+Quan sát hành vi của thị trường phái sinh.
+
+Ví dụ:
+
+- Open Interest
+- Funding
+- Liquidation
+- Basis
 
 ---
 
@@ -50,17 +64,36 @@ Quan sát thị trường phái sinh.
 
 Quan sát môi trường thị trường.
 
+Ví dụ:
+
+- News
+- Economic Events
+- Market Correlation
+- Liquidity Environment
+
 ---
 
 ## Execution
 
-Quan sát dữ liệu phục vụ xác nhận điểm vào.
+Quan sát dữ liệu phục vụ quá trình thực thi.
+
+Ví dụ:
+
+- Order Flow
+- Volume Profile
+- Footprint
+- DOM
+- Liquidity
 
 ---
 
 # Vai trò
 
 ```text
+Reality
+
+↓
+
 Market
 
 ↓
@@ -73,16 +106,16 @@ Observation
 
 ↓
 
-Core Engine
+Canon
 ```
 
-Market Image chỉ mô tả **nguồn gốc của Observation**.
+Market Image xác định nguồn gốc của Observation.
 
-Nó không diễn giải.
+Market Image không diễn giải dữ liệu.
 
-Không đánh giá.
+Market Image không đánh giá dữ liệu.
 
-Không đưa ra kết luận.
+Market Image không đưa ra kết luận.
 
 ---
 
@@ -90,14 +123,24 @@ Không đưa ra kết luận.
 
 Mỗi nguồn quan sát chỉ chịu trách nhiệm cung cấp dữ liệu.
 
-Việc diễn giải dữ liệu thuộc về các thành phần phía sau.
+Một Observation có thể kết hợp nhiều nguồn.
+
+Việc diễn giải Observation thuộc về Canon.
 
 ---
 
 # Triết lý
 
-Quan sát thị trường từ nhiều góc nhìn.
+Không có một góc nhìn nào phản ánh toàn bộ thị trường.
 
-Chuẩn hóa thành một ngôn ngữ chung.
+Market Image giúp hệ thống quan sát cùng một thị trường từ nhiều góc nhìn khác nhau.
 
-Đó là nền tảng của mọi quá trình suy luận.
+Mọi góc nhìn đều được chuẩn hóa thành cùng một ngôn ngữ Observation.
+
+---
+
+> Thị trường là một.
+
+> Góc nhìn có thể khác nhau.
+
+> Observation là ngôn ngữ chung của mọi góc nhìn.

@@ -1,14 +1,14 @@
 ---
 title: Validation
 id: validation
-version: 2.0
+version: 3.0
 status: Stable
 author: HTLH
 language: vi
 created: 2026-07-12
-last_updated: 2026-07-12
+last_updated: 2026-07-17
 review_cycle: Monthly
-confidence: 95%
+confidence: 100%
 tags:
   - input
   - validation
@@ -16,57 +16,130 @@ tags:
 
 # Validation
 
-> Validation xác nhận Observation đã đủ điều kiện để bắt đầu suy luận.
+> Validation xác nhận Observation đã đủ điều kiện để bắt đầu quá trình suy luận.
 
 ---
 
 # Mục tiêu
 
-Đảm bảo Core Engine chỉ suy luận khi dữ liệu đã đầy đủ.
+Đảm bảo Canon chỉ sử dụng Observation hợp lệ và đáng tin cậy.
+
+Validation không đánh giá thị trường.
+
+Validation chỉ đánh giá chất lượng của Observation.
 
 ---
 
 # Quy trình
 
-text Market  ↓  Observation  ↓  Validation  ↓  Knowledge 
+```text
+Reality
+
+↓
+
+Market
+
+↓
+
+Observation
+
+↓
+
+Validation
+
+↓
+
+Canon
+```
+
+Validation là bước cuối cùng trước khi Canon bắt đầu suy luận.
 
 ---
 
 # Kiểm tra
 
-Validation trả lời ba câu hỏi:
+Validation trả lời ba câu hỏi.
 
 ### 1. Observation đã đầy đủ chưa?
 
 Ví dụ:
 
-- Market Image
+- Market Context
 - Derivatives
 - Macro
 
+Observation phải đáp ứng yêu cầu tối thiểu của hệ thống.
+
 ---
 
-### 2. Observation có mâu thuẫn không?
+### 2. Observation có hợp lệ không?
 
-Nếu các Observation xung đột, quá trình suy luận phải dừng lại.
+Ví dụ:
+
+- Thiếu dữ liệu.
+- Sai định dạng.
+- Dữ liệu lỗi.
+- Timestamp không chính xác.
+
+Validation chỉ kiểm tra tính hợp lệ của dữ liệu.
+
+Không đánh giá ý nghĩa của dữ liệu.
 
 ---
 
 ### 3. Observation có đáng tin cậy không?
 
-Nếu dữ liệu thiếu hoặc không nhất quán, không được tiếp tục.
+Observation phải:
+
+- Có nguồn rõ ràng.
+- Có thể xác minh.
+- Có tính nhất quán kỹ thuật.
+
+Chỉ những Observation đạt yêu cầu mới được chuyển cho Canon.
 
 ---
 
 # Kết quả
 
-Validation chỉ có hai trạng thái:
+Validation có hai trạng thái.
 
-text PASS  FAIL 
+```text
+PASS
 
-PASS cho phép Core Engine tiếp tục.
+↓
 
-FAIL đưa hệ thống về trạng thái chờ.
+Canon
+```
+
+Observation hợp lệ.
+
+Canon bắt đầu suy luận.
+
+---
+
+```text
+FAIL
+
+↓
+
+Reject Observation
+```
+
+Observation không hợp lệ.
+
+Observation bị loại bỏ hoặc yêu cầu thu thập lại.
+
+---
+
+# Nguyên tắc
+
+Validation không tạo kết luận.
+
+Validation không đánh giá thị trường.
+
+Validation không giải quyết xung đột giữa các Observation.
+
+Việc diễn giải và xử lý xung đột thuộc về Canon.
 
 ---
 
@@ -74,4 +147,10 @@ FAIL đưa hệ thống về trạng thái chờ.
 
 Không phải mọi dữ liệu đều đáng để suy luận.
 
-Chỉ những Observation đã được xác nhận mới trở thành nền tảng cho tri thức.
+Chỉ những Observation hợp lệ mới trở thành nền tảng của tri thức.
+
+---
+
+> Validation bảo vệ chất lượng của Observation.
+
+> Canon chịu trách nhiệm diễn giải Observation.

@@ -1,14 +1,14 @@
 ---
 title: Derivatives
 id: derivatives
-version: 2.0
+version: 3.0
 status: Stable
 author: HTLH
 language: vi
 created: 2026-07-12
-last_updated: 2026-07-12
+last_updated: 2026-07-17
 review_cycle: Monthly
-confidence: 95%
+confidence: 100%
 tags:
   - input
   - derivatives
@@ -16,15 +16,17 @@ tags:
 
 # Derivatives
 
-> Derivatives chuẩn hóa những quan sát đến từ thị trường phái sinh.
+> Derivatives chuẩn hóa các Observation đến từ thị trường phái sinh.
 
 ---
 
 # Mục tiêu
 
-Quan sát dòng tiền.
+Quan sát hành vi của dòng tiền trên thị trường phái sinh.
 
 Không dự đoán giá.
+
+Không tạo kết luận.
 
 ---
 
@@ -33,29 +35,47 @@ Không dự đoán giá.
 Observation có thể bao gồm:
 
 - Open Interest
-- Funding
+- Funding Rate
 - CVD
 - VPIN
 - Auction Flow
-- Aggressive Liquidation
+- Aggressive Orders
+- Liquidation
+- Basis
 
 ---
 
 # Vai trò
 
-text Derivatives  ↓  Observation  ↓  Knowledge 
+```text
+Derivatives
 
-Core Engine không diễn giải trực tiếp dữ liệu phái sinh.
+↓
 
-Core Engine chỉ sử dụng Observation đã được chuẩn hóa.
+Observation
+
+↓
+
+Canon
+```
+
+Derivatives chuyển đổi dữ liệu phái sinh thành Observation đã được chuẩn hóa.
+
+Canon không đọc trực tiếp dữ liệu phái sinh.
+
+Canon chỉ sử dụng Observation đã được xác nhận.
 
 ---
 
 # Nguyên tắc
 
-Mỗi Observation phản ánh một góc nhìn.
+Mỗi Observation phản ánh một góc nhìn của thị trường.
 
-Không Observation nào được sử dụng để đưa ra quyết định một cách độc lập.
+Không Observation nào đủ để tạo ra Decision một cách độc lập.
+
+Observation từ Derivatives phải được kết hợp với các nguồn quan sát khác trong Canon.
+
+Observation không mang ý nghĩa kết luận.
 
 ---
 
@@ -63,4 +83,12 @@ Không Observation nào được sử dụng để đưa ra quyết định mộ
 
 Dòng tiền không nói thị trường sẽ đi đâu.
 
-Dòng tiền chỉ cho biết thị trường đang làm gì.
+Dòng tiền chỉ phản ánh điều thị trường đang làm.
+
+Ý nghĩa của dòng tiền chỉ xuất hiện khi được đặt trong bối cảnh của toàn bộ Canon.
+
+---
+
+> Derivatives cung cấp bằng chứng.
+
+> Canon diễn giải bằng chứng.

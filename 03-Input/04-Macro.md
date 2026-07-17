@@ -1,14 +1,14 @@
 ---
 title: Macro
 id: macro
-version: 2.0
+version: 3.0
 status: Stable
 author: HTLH
 language: vi
 created: 2026-07-12
-last_updated: 2026-07-12
+last_updated: 2026-07-17
 review_cycle: Monthly
-confidence: 95%
+confidence: 100%
 tags:
   - input
   - macro
@@ -16,15 +16,17 @@ tags:
 
 # Macro
 
-> Macro chuẩn hóa những quan sát về môi trường thị trường.
+> Macro chuẩn hóa các Observation về môi trường thị trường.
 
 ---
 
 # Mục tiêu
 
-Quan sát bối cảnh.
+Quan sát bối cảnh vĩ mô và liên thị trường.
 
 Không đánh giá xu hướng.
+
+Không tạo kết luận.
 
 ---
 
@@ -32,30 +34,49 @@ Không đánh giá xu hướng.
 
 Observation có thể bao gồm:
 
-- Fear & Greed
+- Fear & Greed Index
 - DXY
 - Gold
 - Nasdaq
+- S&P 500
 - Oil
-- Chỉ số vĩ mô khác
+- Bond Yield
+- Economic Calendar
+- Các chỉ số vĩ mô khác
 
 ---
 
 # Vai trò
 
-text Macro  ↓  Observation  ↓  Knowledge 
+```text
+Macro
 
-Macro không quyết định giao dịch.
+↓
 
-Macro chỉ bổ sung bối cảnh cho quá trình suy luận.
+Observation
+
+↓
+
+Canon
+```
+
+Macro chuyển đổi dữ liệu về môi trường thị trường thành Observation đã được chuẩn hóa.
+
+Canon không diễn giải trực tiếp dữ liệu vĩ mô.
+
+Canon chỉ sử dụng Observation đã được xác nhận.
 
 ---
 
 # Nguyên tắc
 
-Không Observation nào trong Macro được sử dụng độc lập.
+Mỗi Observation trong Macro phản ánh một khía cạnh của môi trường thị trường.
 
-Macro luôn được kết hợp với các Observation khác.
+Không Observation nào trong Macro được sử dụng độc lập để tạo Decision.
+
+Macro luôn được kết hợp với các Observation khác trong Canon.
+
+Observation không mang ý nghĩa kết luận.
 
 ---
 
@@ -63,4 +84,14 @@ Macro luôn được kết hợp với các Observation khác.
 
 Hiểu môi trường.
 
-Trước khi hiểu thị trường.
+Trước khi hiểu hành vi của thị trường.
+
+Môi trường không quyết định thị trường sẽ đi đâu.
+
+Môi trường chỉ cung cấp bối cảnh để diễn giải những gì đang xảy ra.
+
+---
+
+> Macro cung cấp bối cảnh.
+
+> Canon diễn giải bối cảnh.

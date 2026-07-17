@@ -1,14 +1,14 @@
 ---
 title: Input
 id: input
-version: 2.0
+version: 3.0
 status: Stable
 author: HTLH
 language: vi
 created: 2026-07-12
-last_updated: 2026-07-12
+last_updated: 2026-07-17
 review_cycle: Monthly
-confidence: 95%
+confidence: 100%
 tags:
   - input
   - observation
@@ -16,7 +16,7 @@ tags:
 
 # Input
 
-> Input định nghĩa cách hệ thống quan sát thế giới.
+> Input định nghĩa cách CC Trading quan sát thế giới.
 
 ---
 
@@ -27,6 +27,8 @@ Chuẩn hóa toàn bộ dữ liệu trước khi đưa vào quá trình suy lu�
 Input không phân tích.
 
 Input không đánh giá.
+
+Input không đưa ra kết luận.
 
 Input chỉ trả lời một câu hỏi.
 
@@ -50,11 +52,17 @@ README.md
 05-Validation.md
 ```
 
+Mỗi tài liệu chuẩn hóa một phần của quá trình quan sát.
+
 ---
 
 # Observation Pipeline
 
 ```text
+Reality
+
+↓
+
 Market
 
 ↓
@@ -71,14 +79,14 @@ Validation
 
 ↓
 
-Core Engine
+Canon
 ```
 
-Input chịu trách nhiệm chuyển dữ liệu từ thị trường thành Observation đã được chuẩn hóa.
+Input chuyển đổi dữ liệu và các quan sát thực tế thành Observation đã được chuẩn hóa.
 
-Core Engine không đọc thị trường trực tiếp.
+Canon không quan sát thị trường trực tiếp.
 
-Core Engine chỉ đọc Observation đã được xác nhận.
+Canon chỉ sử dụng Observation đã được xác nhận.
 
 ---
 
@@ -86,13 +94,13 @@ Core Engine chỉ đọc Observation đã được xác nhận.
 
 ## Observation
 
-Định nghĩa Observation là gì.
+Định nghĩa Observation và cách chuẩn hóa dữ liệu quan sát.
 
 ---
 
 ## Market Image
 
-Định nghĩa các nguồn quan sát.
+Định nghĩa các nguồn dữ liệu và cách biểu diễn thị trường.
 
 ---
 
@@ -104,13 +112,25 @@ Chuẩn hóa các Observation từ thị trường phái sinh.
 
 ## Macro
 
-Chuẩn hóa các Observation từ môi trường thị trường.
+Chuẩn hóa các Observation từ môi trường vĩ mô và liên thị trường.
 
 ---
 
 ## Validation
 
-Xác nhận Observation đã đủ điều kiện để bắt đầu suy luận.
+Xác nhận Observation đủ điều kiện để bắt đầu quá trình suy luận.
+
+---
+
+# Quan hệ với Canon
+
+Input không thuộc Canon.
+
+Input cung cấp Observation cho Canon.
+
+Reality Feedback của chu kỳ trước có thể tạo ra Observation mới cho chu kỳ tiếp theo.
+
+Input là điểm khởi đầu của mọi vòng lặp suy luận.
 
 ---
 
@@ -118,8 +138,14 @@ Xác nhận Observation đã đủ điều kiện để bắt đầu suy luận.
 
 Quan sát càng chuẩn hóa.
 
-Quá trình suy luận càng ổn định.
+Suy luận càng nhất quán.
 
 Không phải mọi dữ liệu đều trở thành Observation.
 
-Chỉ những dữ liệu đã được xác nhận mới được phép đi vào Core Engine.
+Chỉ những Observation đã được xác nhận mới được phép đi vào Canon.
+
+---
+
+> Quan sát là điểm bắt đầu của mọi suy luận.
+
+> Chất lượng của Canon bắt đầu từ chất lượng của Observation.
