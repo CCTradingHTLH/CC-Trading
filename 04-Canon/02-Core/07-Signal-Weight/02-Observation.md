@@ -2,23 +2,23 @@
 
 ---
 
-## Mục tiêu
+## Mục đích
 
-Quan sát mức độ ảnh hưởng của từng Engine.
+Quan sát mức độ đóng góp của từng bằng chứng vào Decision.
 
 ---
 
 ## Quan sát
 
-Auction Contribution
+Auction Weight
 
-Market Context Contribution
+Context Weight
 
-Momentum Contribution
+Momentum Weight
 
-Structure Contribution
+Structure Weight
 
-Quality Contribution
+Quality Weight
 
 ---
 
@@ -26,8 +26,8 @@ Quality Contribution
 
 Mọi Decision đều được hình thành từ nhiều bằng chứng.
 
-Signal Weight lượng hóa từng phần đóng góp.
+Signal Weight lượng hóa mức độ đóng góp của từng bằng chứng.
 
 ---
 
-> Signal Weight giải thích Decision.
+> Signal Weight giải thích cách Decision được hình thành.

@@ -8,39 +8,39 @@
 
 Signal Weight giải thích cách Decision được hình thành.
 
-Engine này phân bổ mức độ ảnh hưởng của từng Engine trước đó.
+Engine này lượng hóa mức độ ảnh hưởng của từng bằng chứng đối với Decision.
 
 ---
 
 # Câu hỏi
 
-Điều gì ảnh hưởng nhiều nhất đến kết luận hiện tại?
+Điều gì ảnh hưởng nhiều nhất đến Decision hiện tại?
 
 ---
 
 # Đầu vào
 
-Auction
+Auction State.
 
 ↓
 
-Market Context
+Context State.
 
 ↓
 
-Momentum
+Momentum State.
 
 ↓
 
-Structure
+Structure State.
 
 ↓
 
-Quality
+Quality State.
 
 ↓
 
-Decision
+Decision State.
 
 ---
 
@@ -48,7 +48,7 @@ Decision
 
 Signal Weight.
 
-Signal Weight trở thành đầu vào của Probability Engine.
+Signal Weight trở thành đầu vào của Engine 08 · Scenario Space.
 
 ---
 
@@ -62,7 +62,7 @@ Signal Weight
 
 ↓
 
-Probability Engine
+Scenario Space
 
 ---
 
@@ -70,21 +70,31 @@ Probability Engine
 
 01 · Definition
 
+Định nghĩa bản chất của Signal Weight.
+
 ↓
 
 02 · Observation
+
+Quan sát mức độ ảnh hưởng của từng bằng chứng.
 
 ↓
 
 03 · State
 
+Định nghĩa các trạng thái của Signal Weight.
+
 ↓
 
 04 · Transition
 
+Định nghĩa cách Signal Weight thay đổi.
+
 ↓
 
 05 · Examples
+
+Ví dụ thực tế.
 
 ---
 

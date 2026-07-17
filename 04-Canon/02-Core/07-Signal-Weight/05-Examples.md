@@ -8,25 +8,27 @@ Decision
 
 Bull Bias
 
+↓
+
 Signal Weight
 
-Momentum
+Momentum Weight
 
 42%
 
-Context
+Context Weight
 
 28%
 
-Structure
+Structure Weight
 
 16%
 
-Auction
+Auction Weight
 
 9%
 
-Quality
+Quality Weight
 
 5%
 
@@ -38,28 +40,38 @@ Decision
 
 Neutral Bias
 
+↓
+
 Signal Weight
 
-Context
+Context Weight
 
 31%
 
-Structure
+Structure Weight
 
 24%
 
-Momentum
+Momentum Weight
 
 22%
 
-Auction
+Auction Weight
 
 14%
 
-Quality
+Quality Weight
 
 9%
 
 ---
 
-> Signal Weight giúp giải thích Decision.
+## Nguyên tắc
+
+Signal Weight phản ánh mức độ đóng góp của từng bằng chứng.
+
+Tổng các Signal Weight phản ánh toàn bộ cơ sở của Decision.
+
+---
+
+> Signal Weight giải thích cách Decision được hình thành.
