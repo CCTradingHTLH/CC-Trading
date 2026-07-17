@@ -13,33 +13,56 @@ Tài liệu này ghi lại những thay đổi quan trọng trong quá trình ph
 - Canon Framework.
 - Canon Foundation.
 - 10 Core Engines.
-- Decision Loop.
+- Canon Decision Loop.
 - Scenario Space.
 - Execution Planner.
 - Reality Feedback.
 - Chuẩn hóa Project Structure.
 - Chuẩn hóa Input Framework.
 
+---
+
 ## Improved
 
 - Thiết kế lại toàn bộ Canon.
 - Chuẩn hóa hệ thống đặt tên.
-- Chuẩn hóa tài liệu.
-- Tách rõ Philosophy, Architecture, Input và Canon.
+- Chuẩn hóa hệ thống tài liệu.
+- Tách biệt rõ Manifesto, Architecture, Input và Canon.
 - Xây dựng vòng đời phát triển hoàn chỉnh:
-  Manifesto → Architecture → Input → Canon → AI Trader → Backtest → Deployment → Research.
+
+  Manifesto
+  ↓
+  Architecture
+  ↓
+  Input
+  ↓
+  Canon
+  ↓
+  AI Trader
+  ↓
+  Backtest
+  ↓
+  Deployment
+  ↓
+  Research
+
+---
 
 ## Changed
 
 - Canon được xây dựng lại từ đầu.
-- Chuyển từ tư duy Indicator sang hệ thống suy luận.
+- Chuyển từ hệ thống Indicator sang hệ thống suy luận.
 - Chuyển từ Prediction sang Scenario.
 - Chuyển từ phản ứng sang chuẩn bị.
-- Đưa Reality Feedback trở thành một phần của Decision Loop.
+- Đưa Reality Feedback trở thành một phần của Canon Decision Loop.
+
+---
 
 ## Notes
 
-Đây là phiên bản đầu tiên mà CC Trading trở thành một hệ thống hoàn chỉnh với triết lý, kiến trúc và bộ máy suy luận độc lập.
+Version 3 đánh dấu sự ra đời của Canon như bộ máy suy luận cốt lõi của CC Trading.
+
+Đây là phiên bản đầu tiên mà toàn bộ hệ thống được thống nhất trên cùng một triết lý, một kiến trúc và một chu trình suy luận hoàn chỉnh.
 
 ---
 
@@ -49,7 +72,7 @@ Tài liệu này ghi lại những thay đổi quan trọng trong quá trình ph
 
 Giai đoạn chuyển tiếp từ các ý tưởng ban đầu sang Canon.
 
-Nhiều nguyên lý được thử nghiệm, thay đổi và thay thế trong quá trình hình thành hệ thống suy luận.
+Nhiều nguyên lý được thử nghiệm, điều chỉnh và thay thế trong quá trình hình thành hệ thống suy luận.
 
 ---
 
@@ -78,7 +101,7 @@ Nhiều nguyên lý được thử nghiệm, thay đổi và thay thế trong qu
 
 ## Initial Framework
 
-Khởi đầu của dự án.
+Khởi đầu của CC Trading.
 
 ### Components
 
@@ -95,6 +118,16 @@ Khởi đầu của dự án.
 
 # Future
 
-Các phiên bản tiếp theo sẽ chỉ bổ sung và phát triển hệ thống.
+Các phiên bản tiếp theo sẽ tiếp tục mở rộng năng lực của hệ thống.
 
-Triết lý cốt lõi của CC Trading được giữ ổn định từ Version 3.
+Triết lý, kiến trúc và các nguyên tắc cốt lõi của CC Trading được giữ ổn định từ Version 3 trở đi.
+
+---
+
+# Philosophy of Versioning
+
+Version lớn chỉ được phát hành khi kiến trúc hoặc triết lý của hệ thống thay đổi.
+
+Việc bổ sung tính năng hoặc cải tiến nội bộ sẽ được phát hành dưới các phiên bản nhỏ hơn.
+
+CC Trading ưu tiên sự ổn định của triết lý hơn là số lượng tính năng.

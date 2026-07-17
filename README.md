@@ -4,11 +4,13 @@
 
 **Theo đuổi sự sáng suốt trong mọi quyết định.**
 
+CC Trading là một hệ thống suy luận có cấu trúc, chuyển dữ liệu thành quan sát, quyết định và tri thức mới.
+
 ---
 
 # Tầm nhìn
 
-CC Trading xây dựng một hệ thống giúp con người quan sát, suy luận và ra quyết định một cách sáng suốt.
+CC Trading xây dựng một hệ thống giúp con người quan sát, suy luận, hành động và học hỏi một cách sáng suốt.
 
 ---
 
@@ -16,10 +18,10 @@ CC Trading xây dựng một hệ thống giúp con người quan sát, suy lu�
 
 | Module | Mô tả |
 |---------|------|
-| **01 · Manifesto** | Triết lý cốt lõi của CC Trading. |
+| **01 · Manifesto** | Những nguyên tắc cốt lõi của CC Trading. |
 | **02 · Architecture** | Kiến trúc của toàn bộ hệ thống. |
 | **03 · Input** | Chuẩn hóa dữ liệu đầu vào. |
-| **04 · Canon** | Bộ máy suy luận. |
+| **04 · Canon** | Bộ máy suy luận của CC Trading. |
 | **05 · AI Trader** | Ứng dụng Canon vào quá trình giao dịch tự động. |
 | **06 · Backtest** | Kiểm chứng chất lượng của hệ thống suy luận. |
 | **07 · Deployment** | Đưa hệ thống vào môi trường vận hành thực tế. |
