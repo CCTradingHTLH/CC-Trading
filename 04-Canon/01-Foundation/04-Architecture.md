@@ -6,7 +6,7 @@
 
 ## Canon
 
-Canon được xây dựng trên ba tầng.
+Canon được xây dựng trên hai tầng.
 
 Foundation
 
@@ -14,27 +14,59 @@ Foundation
 
 Core
 
-↓
-
-Execution Layer
-
 ---
 
 ## Foundation
 
-Định nghĩa nền tảng chung.
+Định nghĩa triết lý, nguyên lý, ngôn ngữ và kiến trúc chung của Canon.
 
 ---
 
 ## Core
 
-Biến quan sát thành quyết định.
+Hiện thực hóa Foundation thông qua mười Core Engines.
 
----
+Observation
 
-## Execution Layer
+↓
 
-Biến quyết định thành hành động.
+Auction
+
+↓
+
+Market Context
+
+↓
+
+Momentum
+
+↓
+
+Structure
+
+↓
+
+Quality
+
+↓
+
+Decision
+
+↓
+
+Signal Weight
+
+↓
+
+Scenario Space
+
+↓
+
+Execution Planner
+
+↓
+
+Reality Feedback
 
 ---
 
@@ -42,9 +74,21 @@ Biến quyết định thành hành động.
 
 Mỗi Engine kế thừa cùng một Foundation.
 
+Mỗi Engine thực hiện một trách nhiệm duy nhất.
+
 Mỗi Engine nhận đầu vào từ Engine trước.
 
 Mỗi Engine tạo đầu ra cho Engine sau.
+
+---
+
+## Decision Pipeline
+
+Toàn bộ Core tạo thành một Decision Pipeline thống nhất.
+
+Mỗi Engine đóng góp một bước suy luận.
+
+Toàn bộ Pipeline tạo nên một quá trình ra quyết định có thể giải thích và có thể kiểm chứng.
 
 ---
 

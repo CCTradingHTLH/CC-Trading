@@ -34,8 +34,20 @@ Học hỏi tạo nên sự sáng suốt.
 
 ## Canon
 
-Canon theo đuổi sự sáng suốt thông qua một quá trình rõ ràng, có cấu trúc và có thể kiểm chứng.
+Canon theo đuổi sự sáng suốt thông qua một quá trình rõ ràng, nhất quán và có thể kiểm chứng.
+
+Canon xây dựng quyết định từ bằng chứng.
+
+Canon phát triển tri thức từ thực tế.
+
+Canon hoàn thiện chính mình qua mỗi vòng lặp học hỏi.
 
 ---
 
-> Sự sáng suốt được xây dựng từng bước.
+## Triết lý
+
+Sự sáng suốt được xây dựng từ quan sát, suy luận và học hỏi liên tục.
+
+---
+
+> In Pursuit of Clarity.

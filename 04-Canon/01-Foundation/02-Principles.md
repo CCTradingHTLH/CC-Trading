@@ -44,7 +44,31 @@ Một tập dữ liệu giống nhau luôn tạo ra cùng một kết quả.
 
 ## Continuous Learning
 
-Mỗi lần thực thi đều tạo thêm hiểu biết cho lần tiếp theo.
+Mỗi vòng lặp đều tạo thêm tri thức cho vòng lặp tiếp theo.
+
+---
+
+## Shared Lifecycle
+
+Mọi Core Engine cùng tuân theo một vòng đời thống nhất.
+
+Definition
+
+↓
+
+Observation
+
+↓
+
+State
+
+↓
+
+Transition
+
+↓
+
+Examples
 
 ---
 

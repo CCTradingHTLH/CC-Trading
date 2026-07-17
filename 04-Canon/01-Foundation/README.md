@@ -30,33 +30,33 @@ Canon suy luận theo trình tự nào?
 
 Foundation gồm năm phần.
 
-01 · Philosophy
+### 01 · Philosophy
 
 Triết lý cốt lõi của Canon.
 
 ↓
 
-02 · Principles
+### 02 · Principles
 
 Những nguyên lý định hình toàn bộ hệ thống.
 
 ↓
 
-03 · Language
+### 03 · Language
 
 Ngôn ngữ chung được sử dụng bởi mọi Engine.
 
 ↓
 
-04 · Architecture
+### 04 · Architecture
 
 Kiến trúc tổng thể của Canon.
 
 ↓
 
-05 · Pipeline
+### 05 · Pipeline
 
-Dòng chảy suy luận chuẩn từ Observation đến Execution.
+Dòng chảy suy luận chuẩn của Canon.
 
 ---
 
@@ -64,29 +64,34 @@ Dòng chảy suy luận chuẩn từ Observation đến Execution.
 
 Foundation tạo nên nền tảng chung cho toàn bộ Canon.
 
-Mọi Engine đều kế thừa cùng một triết lý.
-
-Mọi quyết định đều được xây dựng trên cùng một bộ nguyên lý.
-
-Mọi thành phần đều sử dụng cùng một ngôn ngữ.
+- Mọi Engine cùng chia sẻ một triết lý.
+- Mọi quyết định cùng tuân theo một bộ nguyên lý.
+- Mọi thành phần cùng sử dụng một ngôn ngữ.
+- Mọi suy luận cùng đi theo một Pipeline.
 
 ---
 
 ## Kiến trúc
 
-CC Trading xác định mục tiêu.
+CC Trading hướng tới một hệ thống ra quyết định có thể giải thích được.
 
-Observe.
+```
+Observation
+      ↓
+Foundation
+      ↓
+Core
+      ↓
+Reality Feedback
+      ↺
+Observation
+```
 
-↓
+Foundation định nghĩa cách suy nghĩ.
 
-Reason.
+Core hiện thực hóa cách suy nghĩ thành Decision Pipeline.
 
-↓
-
-Execute.
-
-Canon hiện thực hóa mục tiêu đó thông qua Foundation, Core và Execution Layer.
+Reality Feedback chuyển thực tế thành tri thức mới.
 
 ---
 

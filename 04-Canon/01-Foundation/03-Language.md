@@ -26,13 +26,13 @@ Trạng thái hiện tại của một hiện tượng.
 
 ## Transition
 
-Sự chuyển đổi giữa hai trạng thái.
+Sự chuyển đổi từ trạng thái này sang trạng thái khác.
 
 ---
 
 ## Signal
 
-Thông tin có giá trị suy luận.
+Thông tin có giá trị cho quá trình suy luận.
 
 ---
 
@@ -44,7 +44,7 @@ Hướng ưu tiên của quyết định.
 
 ## Confidence
 
-Mức độ tin cậy của kết luận.
+Mức độ tin cậy của một kết luận.
 
 ---
 
@@ -57,6 +57,18 @@ Khả năng xảy ra của một kịch bản.
 ## Engine
 
 Một đơn vị xử lý độc lập với một trách nhiệm duy nhất.
+
+---
+
+## Pipeline
+
+Chuỗi các Engine phối hợp để tạo ra quyết định.
+
+---
+
+## Reality Feedback
+
+Quá trình chuyển kết quả thực tế thành tri thức mới.
 
 ---
 
