@@ -2,37 +2,31 @@
 
 ---
 
-## Mục tiêu
+## Mục đích
 
 Observation chuẩn hóa toàn bộ dữ liệu quan sát được.
 
-Observation phản ánh thị trường như nó đang diễn ra.
+Observation phản ánh hành vi của thị trường tại thời điểm hiện tại.
 
 ---
 
 ## Quan sát
 
-Price
+Auction quan sát thị trường thông qua:
 
-Volume
+- Price
+- Volume
+- Delta
+- CVD
+- Open Interest
+- Funding
+- Aggressive Orders
+- Liquidation
+- Volume Profile
+- Heatmap
+- Time
 
-Delta
-
-CVD
-
-Open Interest
-
-Funding
-
-Aggressive Orders
-
-Liquidation
-
-Volume Profile
-
-Heatmap
-
-Time
+Mỗi thành phần phản ánh một khía cạnh của hành vi thị trường.
 
 ---
 
@@ -40,9 +34,11 @@ Time
 
 Quan sát trước.
 
-Diễn giải sau.
+Chuẩn hóa sau.
 
-Mọi Observation đều dựa trên dữ liệu.
+Diễn giải sau cùng.
+
+Mọi Observation đều được xây dựng từ dữ liệu.
 
 ---
 

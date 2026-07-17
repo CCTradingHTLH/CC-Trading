@@ -6,11 +6,11 @@
 
 # Mục đích
 
-Auction là điểm khởi đầu của toàn bộ Canon.
+Auction là điểm khởi đầu của Core Pipeline.
 
-Engine này chuyển dữ liệu thô thành quan sát có ý nghĩa.
+Engine này chuyển dữ liệu thị trường thành Observation chuẩn hóa.
 
-Mọi Engine phía sau đều kế thừa kết quả từ Auction.
+Mọi Engine phía sau đều kế thừa Observation từ Auction.
 
 ---
 
@@ -22,7 +22,7 @@ Mọi Engine phía sau đều kế thừa kết quả từ Auction.
 
 # Đầu vào
 
-Dữ liệu thị trường thô.
+Dữ liệu thị trường.
 
 Ví dụ:
 
@@ -30,7 +30,7 @@ Ví dụ:
 - Volume
 - Delta
 - CVD
-- OI
+- Open Interest
 - Funding
 - Aggressive Orders
 - Liquidation
@@ -42,11 +42,11 @@ Ví dụ:
 
 # Đầu ra
 
-Một Observation chuẩn hóa.
+Observation chuẩn hóa.
 
 Observation chỉ mô tả hành vi.
 
-Observation chưa tạo kết luận.
+Observation chưa chứa diễn giải hay kết luận.
 
 ---
 
@@ -80,13 +80,13 @@ Chuẩn hóa dữ liệu quan sát.
 
 03 · State
 
-Định nghĩa các trạng thái Auction.
+Định nghĩa các trạng thái của Auction.
 
 ↓
 
 04 · Transition
 
-Định nghĩa cách Auction chuyển trạng thái.
+Định nghĩa cách Auction chuyển đổi giữa các trạng thái.
 
 ↓
 
@@ -98,4 +98,4 @@ Ví dụ thực tế.
 
 # Triết lý
 
-Quan sát đúng tạo nên toàn bộ Pipeline.
+Quan sát đúng là nền tảng của mọi suy luận.

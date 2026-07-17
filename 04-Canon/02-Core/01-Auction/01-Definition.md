@@ -1,5 +1,7 @@
 # Definition
 
+> Bản chất của Auction.
+
 ---
 
 ## Bản chất
@@ -8,9 +10,7 @@ Auction là quá trình trao đổi liên tục giữa người mua và người
 
 Mỗi giao dịch phản ánh sự đồng thuận tạm thời về giá.
 
-Auction không dự đoán.
-
-Auction chỉ mô tả hành vi đang diễn ra.
+Auction mô tả hành vi đang diễn ra thông qua dữ liệu thị trường.
 
 ---
 
@@ -26,7 +26,7 @@ Mô tả.
 
 ## Thành phần
 
-Auction được hình thành từ:
+Auction được quan sát thông qua:
 
 - Price
 - Volume
@@ -34,15 +34,15 @@ Auction được hình thành từ:
 - Aggression
 - Liquidity
 
-Những dữ liệu này cùng mô tả hành vi của thị trường.
+Những thành phần này cùng phản ánh hành vi của thị trường.
 
 ---
 
 ## Đầu ra
 
-Auction tạo ra Observation.
+Auction tạo ra Observation chuẩn hóa.
 
-Observation trở thành đầu vào của Market Context.
+Observation trở thành đầu vào của Engine 02 · Market Context.
 
 ---
 

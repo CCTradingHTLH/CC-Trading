@@ -2,9 +2,11 @@
 
 ---
 
-## Mục tiêu
+## Mục đích
 
 Transition mô tả cách Auction chuyển từ State này sang State khác.
+
+Transition phản ánh sự thay đổi của hành vi thị trường theo thời gian.
 
 ---
 
@@ -44,9 +46,11 @@ Buyer Dominant
 
 ## Nguyên tắc
 
-Transition luôn bắt nguồn từ Observation.
+Mọi Transition đều bắt đầu từ Observation mới.
 
-State mới chỉ được xác nhận khi có đủ bằng chứng.
+State chỉ chuyển đổi khi có đủ bằng chứng.
+
+Transition luôn phản ánh sự thay đổi của hành vi thị trường.
 
 ---
 

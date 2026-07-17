@@ -2,61 +2,61 @@
 
 ---
 
-## Ví dụ 01
+## Ví dụ 01 · Buyer Dominant
 
-Observation
+### Observation
 
-Delta tăng mạnh.
-
-CVD tăng.
-
-OI tăng.
-
-Agg Buy áp đảo.
+- Delta tăng mạnh.
+- CVD tăng.
+- Open Interest tăng.
+- Aggressive Buy áp đảo.
 
 ↓
 
-State
+### State
 
-Buyer Dominant.
+Buyer Dominant
 
 ---
 
-## Ví dụ 02
+## Ví dụ 02 · Seller Dominant
 
-Observation
+### Observation
 
-Price giảm.
-
-Delta âm.
-
-CVD giảm.
-
-OI giảm.
+- Price giảm.
+- Delta âm.
+- CVD giảm.
+- Open Interest giảm.
 
 ↓
 
-State
+### State
 
-Seller Dominant.
+Seller Dominant
 
 ---
 
-## Ví dụ 03
+## Ví dụ 03 · Absorption
 
-Observation
+### Observation
 
-Delta rất dương.
-
-Price đứng yên.
-
-Volume lớn.
+- Delta rất dương.
+- Price gần như đi ngang.
+- Volume lớn.
 
 ↓
 
-State
+### State
 
-Absorption.
+Absorption
+
+---
+
+## Nguyên tắc
+
+Observation tạo nên State.
+
+State chỉ phản ánh hành vi tại thời điểm quan sát.
 
 ---
 
