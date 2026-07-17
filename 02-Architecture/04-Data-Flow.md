@@ -1,7 +1,7 @@
 ---
 title: Data Flow
 id: architecture-data-flow
-version: 3.0
+version: 3.1
 status: Freeze
 author: HTLH
 language: vi
@@ -16,19 +16,17 @@ tags:
 
 # Data Flow
 
-> Data Flow mô tả cách bằng chứng và tri thức di chuyển trong CC Trading.
+> Data Flow mô tả cách bằng chứng và tri thức luân chuyển trong CC Trading.
 
 ---
 
 # Mục tiêu
 
-Data Flow đảm bảo toàn bộ quá trình suy luận diễn ra theo một hướng nhất quán.
+Data Flow tổ chức quá trình chuyển đổi từ dữ liệu quan sát thành tri thức có thể hành động.
 
-Thông tin không được suy luận ngược.
+Mỗi giai đoạn kế thừa kết quả của giai đoạn trước.
 
-Tri thức chỉ được mở rộng khi có thêm bằng chứng.
-
-Reality luôn là điểm bắt đầu của chu kỳ tiếp theo.
+Reality khởi đầu cho chu kỳ học hỏi tiếp theo.
 
 ---
 
@@ -126,57 +124,53 @@ Reasoning bao gồm:
 
 ## Decision
 
-Reasoning tạo ra kết luận hợp lý nhất tại thời điểm hiện tại.
+Reasoning hình thành kết luận hợp lý nhất tại thời điểm hiện tại.
 
-Decision không phải điểm kết thúc.
-
-Decision là đầu vào cho các bước tiếp theo.
+Decision trở thành đầu vào cho các bước tiếp theo của Pipeline.
 
 ---
 
 ## Explanation
 
-Signal Weight giải thích vì sao Decision được hình thành.
+Signal Weight giải thích cách các bằng chứng đóng góp vào Decision.
 
-Mọi Decision đều có thể được truy vết.
+Mỗi Decision đều có thể được truy vết.
 
 ---
 
 ## Scenario
 
-Scenario Space mô hình hóa các khả năng có thể xảy ra.
+Scenario Space mô hình hóa các khả năng đang tồn tại.
 
-Decision không dự đoán tương lai.
-
-Decision chuẩn bị cho nhiều khả năng.
+Mỗi Scenario mô tả một hướng phát triển hợp lý của thị trường.
 
 ---
 
 ## Execution
 
-Execution Planner chuyển từng Scenario thành kế hoạch hành động cụ thể.
+Execution Planner chuyển từng Scenario thành một kế hoạch hành động cụ thể.
 
 ---
 
 ## Reality
 
-Reality phản ánh điều thực sự đã xảy ra.
+Reality ghi nhận điều thực sự đã xảy ra.
 
-Reality luôn có độ ưu tiên cao nhất.
+Reality trở thành tiêu chuẩn để kiểm chứng toàn bộ quá trình suy luận.
 
 ---
 
 ## Learning
 
-Reality Feedback cập nhật tri thức của hệ thống.
+Reality Feedback chuyển kết quả thực tế thành tri thức mới.
 
-Mọi kết quả đều trở thành Observation của chu kỳ tiếp theo.
+Tri thức mới trở thành Observation của chu kỳ tiếp theo.
 
 ---
 
 # Nguyên tắc
 
-Thông tin luôn di chuyển theo một chiều.
+Thông tin luôn được kế thừa theo một chiều.
 
 ```text
 Observation
@@ -218,32 +212,28 @@ Learning
 Observation
 ```
 
-Không Layer nào được sửa kết quả của Layer trước.
+Mỗi giai đoạn sử dụng kết quả đã được xác nhận của giai đoạn trước.
 
-Layer sau chỉ được sử dụng những kết quả đã được xác nhận.
-
-Reality luôn có quyền cập nhật toàn bộ Pipeline.
+Reality có thể cập nhật toàn bộ Pipeline thông qua Reality Feedback.
 
 ---
 
 # Triết lý
 
-CC Trading không truyền dữ liệu.
+CC Trading chuyển đổi dữ liệu thành sự hiểu biết.
 
-CC Trading truyền sự hiểu biết.
+Sự hiểu biết tạo nên kết luận.
 
-Không phải mọi Observation đều tạo ra Decision.
+Kết luận được giải thích bằng bằng chứng.
 
-Nhưng mọi Decision đều phải có thể giải thích.
-
-Mọi Reality đều trở thành tri thức cho chu kỳ tiếp theo.
+Thực tế tiếp tục mở rộng tri thức của hệ thống.
 
 ---
 
 > Dữ liệu tạo nên bằng chứng.
-
+>
 > Bằng chứng tạo nên suy luận.
-
+>
 > Suy luận tạo nên quyết định.
-
+>
 > Thực tế tạo nên tri thức.

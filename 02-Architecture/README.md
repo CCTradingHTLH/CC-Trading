@@ -1,7 +1,7 @@
 ---
 title: Architecture
 id: architecture
-version: 3.0
+version: 3.1
 status: Freeze
 author: HTLH
 language: vi
@@ -27,11 +27,9 @@ Architecture trả lời một câu hỏi duy nhất.
 
 > Hệ thống suy luận như thế nào?
 
-Architecture không định nghĩa tri thức.
+Architecture định nghĩa cấu trúc và sự phối hợp giữa các thành phần của hệ thống.
 
-Architecture không tạo quyết định.
-
-Architecture định nghĩa cách các thành phần của hệ thống phối hợp để tạo nên quá trình suy luận.
+Architecture tổ chức quá trình chuyển đổi từ Observation đến Decision thông qua một Workflow thống nhất.
 
 ---
 
@@ -64,9 +62,9 @@ Mỗi tài liệu mô tả một khía cạnh của kiến trúc tổng thể.
 | **Architecture** | Định nghĩa cách hệ thống vận hành. |
 | **Canon** | Định nghĩa tri thức mà hệ thống sử dụng. |
 
-Architecture quyết định tri thức được luân chuyển như thế nào.
+Architecture tổ chức cách tri thức được luân chuyển.
 
-Canon quyết định tri thức đó có ý nghĩa gì.
+Canon cung cấp tri thức cho từng bước suy luận.
 
 Hai thành phần độc lập nhưng bổ sung cho nhau.
 
@@ -74,15 +72,13 @@ Hai thành phần độc lập nhưng bổ sung cho nhau.
 
 # Triết lý
 
-CC Trading không xử lý dữ liệu theo Indicator.
+CC Trading tổ chức quá trình suy luận thông qua một chuỗi câu hỏi.
 
-CC Trading xử lý dữ liệu thông qua một chuỗi câu hỏi.
+Mỗi Layer trả lời một câu hỏi.
 
-Mỗi tầng chỉ chịu trách nhiệm trả lời một câu hỏi.
+Mỗi Engine thực hiện một trách nhiệm.
 
-Mỗi Engine chỉ giải quyết đúng trách nhiệm của mình.
-
-Chỉ khi bằng chứng hiện tại đủ rõ ràng, hệ thống mới chuyển sang tầng suy luận tiếp theo.
+Mỗi bước suy luận kế thừa kết quả của bước trước để từng bước làm rõ bức tranh của thị trường.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Workflow
 id: architecture-workflow
-version: 3.0
+version: 3.1
 status: Freeze
 author: HTLH
 language: vi
@@ -72,13 +72,13 @@ Observe
 
 Workflow tạo thành một vòng lặp suy luận khép kín.
 
-Mỗi chu kỳ kết thúc bằng Reality Feedback và bắt đầu lại từ Observation mới.
+Mỗi chu kỳ kết thúc bằng Reality Feedback và bắt đầu từ Observation của chu kỳ tiếp theo.
 
 ---
 
 # Nguyên tắc
 
-Workflow luôn đi theo cùng một trình tự:
+Workflow luôn tiến theo cùng một trình tự:
 
 - Quan sát.
 - Hiểu hành vi thị trường.
@@ -92,13 +92,13 @@ Workflow luôn đi theo cùng một trình tự:
 - Chuẩn bị kế hoạch thực thi.
 - Học hỏi từ thực tế.
 
-Không được bỏ qua bất kỳ tầng nào.
+Mỗi Layer kế thừa kết quả của Layer trước.
 
-Không được đưa ra Decision khi Workflow chưa hoàn thành.
+Decision được hình thành sau khi toàn bộ Workflow hoàn tất.
 
-Reality luôn có độ ưu tiên cao nhất.
+Reality luôn là nguồn thông tin có độ ưu tiên cao nhất.
 
-Reality Feedback luôn trở thành Observation của chu kỳ tiếp theo.
+Reality Feedback khởi đầu cho chu kỳ suy luận tiếp theo.
 
 ---
 

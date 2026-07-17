@@ -1,7 +1,7 @@
 ---
 title: Extensibility
 id: architecture-extensibility
-version: 3.0
+version: 3.1
 status: Freeze
 author: HTLH
 language: vi
@@ -22,23 +22,23 @@ tags:
 
 # Mục tiêu
 
-Cho phép hệ thống tiếp tục phát triển mà không làm thay đổi các nguyên lý cốt lõi.
+Extensibility cho phép hệ thống tiếp tục mở rộng trên cùng một nền tảng suy luận.
 
-Kiến trúc ổn định.
+Kiến trúc duy trì sự ổn định.
 
-Tri thức có thể mở rộng.
+Tri thức liên tục tiến hóa.
 
 ---
 
 # Nguyên tắc
 
-Mọi thành phần mới phải thuộc đúng Layer.
+Mỗi thành phần mới được bổ sung vào đúng Layer.
 
-Mỗi Layer chỉ trả lời một câu hỏi.
+Mỗi Layer tiếp tục trả lời đúng một câu hỏi.
 
-Không một thành phần nào được phá vỡ Workflow.
+Toàn bộ quá trình mở rộng kế thừa Workflow hiện có.
 
-Ví dụ.
+Ví dụ:
 
 ```text
 RSI Wave
@@ -90,9 +90,7 @@ Không hợp lệ.
 
 # Workflow
 
-Thành phần mới không được thay đổi trình tự suy luận.
-
-Workflow luôn giữ nguyên.
+Workflow là nền tảng chung của mọi phiên bản CC Trading.
 
 ```text
 Observe
@@ -138,65 +136,64 @@ Execution Planner
 Reality Feedback
 ```
 
-Kiến thức có thể thay đổi.
+Tri thức có thể phát triển.
 
-Workflow không thay đổi.
+Workflow duy trì tính nhất quán của toàn bộ hệ thống.
 
 ---
 
 # Core Engine
 
-Core Engine không phụ thuộc vào cách tri thức được xây dựng.
+Core Engine điều phối quá trình suy luận.
 
-Core Engine chỉ sử dụng kết quả chuẩn hóa của từng Layer.
+Canon cung cấp tri thức cho từng Layer.
 
-Điều này cho phép bổ sung hoặc cải tiến Canon mà không cần thay đổi cơ chế suy luận.
+Các Layer trao đổi với nhau thông qua đầu ra đã được chuẩn hóa.
+
+Nhờ đó, Canon có thể được mở rộng mà không làm thay đổi cơ chế vận hành của Core Engine.
 
 ---
 
 # Khả năng mở rộng
 
-CC Trading có thể mở rộng ở nhiều cấp độ.
+CC Trading có thể phát triển ở nhiều cấp độ.
 
-- Input Sources.
-- Market Data.
-- Canon Knowledge.
-- Indicators.
-- AI Models.
-- Execution Modules.
-- Research Framework.
+- Input Sources
+- Market Data
+- Canon Knowledge
+- Indicators
+- AI Models
+- Execution Modules
+- Research Framework
 
-Mọi mở rộng đều phải tuân thủ cùng một kiến trúc suy luận.
+Mỗi thành phần mới đều trở thành một phần của cùng một hệ thống suy luận.
 
 ---
 
 # Khả năng tương thích
 
-Một thành phần mới chỉ được chấp nhận khi:
+Một thành phần mới phù hợp với kiến trúc khi:
 
 - Thuộc đúng Layer.
 - Trả lời đúng một câu hỏi.
-- Không tạo xung đột với các Layer khác.
-- Không phá vỡ Data Flow.
-- Không phá vỡ State Machine.
-- Không làm thay đổi triết lý của Canon.
+- Kế thừa Data Flow.
+- Kế thừa State Machine.
+- Phù hợp với triết lý của Canon.
 
 ---
 
 # Triết lý
 
-Architecture ổn định.
+Architecture tạo nên sự ổn định.
 
-Workflow nhất quán.
+Workflow duy trì sự nhất quán.
 
-Canon tiến hóa.
+Canon mở rộng tri thức.
 
-Tri thức mở rộng.
-
-Reality liên tục hoàn thiện hệ thống.
+Reality thúc đẩy sự tiến hóa của toàn bộ hệ thống.
 
 ---
 
-> Một kiến trúc tốt không chống lại sự thay đổi.
+> Một kiến trúc tốt cho phép hệ thống phát triển.
 
-> Một kiến trúc tốt cho phép thay đổi diễn ra mà không đánh mất chính mình.
+> Một kiến trúc trưởng thành giúp sự phát triển luôn giữ được tính nhất quán.

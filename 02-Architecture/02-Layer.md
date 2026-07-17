@@ -1,7 +1,7 @@
 ---
 title: Layer
 id: architecture-layer
-version: 3.0
+version: 3.1
 status: Freeze
 author: HTLH
 language: vi
@@ -16,7 +16,7 @@ tags:
 
 # Layer
 
-> Mỗi Layer chỉ chịu trách nhiệm trả lời một câu hỏi.
+> Mỗi Layer chịu trách nhiệm trả lời một câu hỏi.
 
 ---
 
@@ -90,13 +90,13 @@ tags:
 
 # Triết lý
 
-CC Trading không nhảy cóc giữa các Layer.
+CC Trading tổ chức quá trình suy luận thành các Layer nối tiếp nhau.
 
-Mỗi Layer chỉ trả lời đúng một câu hỏi.
+Mỗi Layer trả lời một câu hỏi.
 
-Mỗi Layer chỉ sử dụng kết quả của Layer trước đó.
+Mỗi Layer kế thừa kết quả của Layer trước.
 
-Chỉ khi câu hỏi hiện tại được trả lời đủ rõ ràng thì hệ thống mới chuyển sang Layer tiếp theo.
+Mỗi câu trả lời làm tăng thêm mức độ hiểu biết về thị trường trước khi chuyển sang Layer tiếp theo.
 
 ```text
 Observe
@@ -146,12 +146,12 @@ Reality Feedback
 Observe
 ```
 
-Mỗi Layer đều có trách nhiệm riêng.
+Mỗi Layer có một trách nhiệm rõ ràng.
 
-Không Layer nào được phép thay thế Layer khác.
+Toàn bộ Workflow được hình thành từ sự phối hợp của các Layer.
 
 ---
 
-> Một Layer tốt không trả lời nhiều câu hỏi.
+> Một Layer tốt chỉ trả lời một câu hỏi.
 
-> Một Layer tốt chỉ trả lời đúng một câu hỏi.
+> Một Workflow tốt kết nối các câu trả lời thành một quá trình suy luận.

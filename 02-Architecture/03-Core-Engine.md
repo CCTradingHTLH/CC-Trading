@@ -1,7 +1,7 @@
 ---
 title: Core Engine
 id: architecture-core-engine
-version: 3.0
+version: 3.1
 status: Freeze
 author: HTLH
 language: vi
@@ -25,27 +25,23 @@ tags:
 
 Core Engine chuyển đổi dữ liệu quan sát thành một kết luận có thể giải thích.
 
-Core Engine không dự đoán thị trường.
+Core Engine xây dựng kết luận từ các bằng chứng hiện có.
 
-Core Engine không tạo ra sự thật.
-
-Core Engine suy luận dựa trên bằng chứng hiện có.
+Mỗi kết luận phản ánh trạng thái hiểu biết của hệ thống tại thời điểm suy luận.
 
 ---
 
 # Triết lý
 
-Core Engine không cố tìm tín hiệu.
+Core Engine tổ chức quá trình suy luận nhằm từng bước giảm sự không chắc chắn.
 
-Core Engine tổ chức quá trình suy luận nhằm giảm sự không chắc chắn.
-
-Sau mỗi Layer.
+Sau mỗi Layer:
 
 - Hiểu biết tăng lên.
 - Bằng chứng rõ ràng hơn.
 - Mức độ tin cậy được cập nhật.
 
-Decision chỉ xuất hiện khi toàn bộ Pipeline đã hoàn thành.
+Decision được hình thành khi toàn bộ Pipeline hoàn tất.
 
 ---
 
@@ -99,7 +95,7 @@ Reality Feedback
 Observe
 ```
 
-Core Engine luôn tuân theo trình tự này.
+Core Engine luôn vận hành theo trình tự này.
 
 ---
 
@@ -146,7 +142,7 @@ Toàn bộ Pipeline đáng tin đến mức nào?
 
 Q7
 
-Kết luận hợp lý nhất là gì?
+Kết luận hợp lý nhất tại thời điểm hiện tại là gì?
 
 ↓
 
@@ -173,7 +169,7 @@ Q11
 Thực tế đã diễn ra như thế nào?
 ```
 
-Một câu hỏi chỉ được trả lời sau khi câu hỏi trước đã hoàn thành.
+Mỗi câu hỏi kế thừa câu trả lời của câu hỏi trước.
 
 ---
 
@@ -185,25 +181,25 @@ Một câu hỏi chỉ được trả lời sau khi câu hỏi trước đã ho�
 | Auction | Thị trường đang đấu giá như thế nào? |
 | Market Context | Hành vi này đang diễn ra trong bối cảnh nào? |
 | Momentum | Lực đang thay đổi như thế nào? |
-| Structure | Thị trường đã phản ứng như thế nào? |
+| Structure | Thị trường đã phản ứng như thế nào trước sự thay đổi của lực? |
 | Quality | Toàn bộ Pipeline đáng tin đến mức nào? |
-| Decision | Kết luận hợp lý nhất là gì? |
+| Decision | Kết luận hợp lý nhất tại thời điểm hiện tại là gì? |
 | Signal Weight | Điều gì ảnh hưởng nhiều nhất đến kết luận? |
 | Scenario Space | Những khả năng nào đang tồn tại? |
 | Execution Planner | Nếu kịch bản này xảy ra, mình nên hành động như thế nào? |
 | Reality Feedback | Thực tế đã diễn ra như thế nào? |
 
-Mỗi Layer chỉ chịu trách nhiệm cho đúng một câu hỏi.
+Mỗi Layer chịu trách nhiệm trả lời một câu hỏi.
 
 ---
 
 # Decision
 
-Decision luôn là kết quả của toàn bộ Pipeline.
+Decision là kết quả của toàn bộ Pipeline.
 
-Decision không phải là điểm kết thúc.
+Decision mở đầu cho giai đoạn giải thích, xây dựng kịch bản và lập kế hoạch thực thi.
 
-Decision là đầu vào của:
+Decision trở thành đầu vào của:
 
 - Signal Weight.
 - Scenario Space.
@@ -215,43 +211,39 @@ Decision là đầu vào của:
 
 Reality luôn có độ ưu tiên cao nhất.
 
-Reality Feedback không bảo vệ Decision trước đó.
+Reality Feedback đánh giá mức độ phù hợp giữa suy luận và thực tế.
 
-Reality cập nhật toàn bộ Pipeline.
+Kết quả của Reality Feedback được sử dụng để cập nhật toàn bộ Pipeline.
 
-Một chu kỳ suy luận mới luôn bắt đầu từ Reality.
+Một chu kỳ suy luận mới bắt đầu từ Reality.
 
 ---
 
 # Quan hệ với Canon
 
-Core Engine không chứa tri thức.
-
 Core Engine tổ chức quá trình suy luận.
 
 Canon cung cấp tri thức cho từng Layer.
 
-Core Engine sử dụng Canon để xây dựng một chuỗi suy luận nhất quán.
+Core Engine kết nối các tri thức đó thành một chuỗi suy luận nhất quán.
 
 ---
 
 # Quan hệ với Constitution
 
-Constitution quy định các nguyên tắc nền tảng.
-
-Architecture tổ chức quá trình suy luận.
-
-Canon định nghĩa tri thức.
-
-Core Engine vận hành quá trình suy luận.
-
-Decision là kết quả của toàn bộ Pipeline.
+| Thành phần | Vai trò |
+|------------|----------|
+| **Constitution** | Định nghĩa các nguyên tắc nền tảng. |
+| **Architecture** | Tổ chức quá trình suy luận. |
+| **Canon** | Cung cấp tri thức cho từng Layer. |
+| **Core Engine** | Điều phối toàn bộ Pipeline suy luận. |
+| **Decision** | Kết quả của quá trình suy luận. |
 
 ---
 
 # Thiết kế
 
-Core Engine luôn vận hành theo một vòng lặp học hỏi.
+Core Engine vận hành theo một vòng lặp học hỏi liên tục.
 
 ```text
 Observe
@@ -273,28 +265,26 @@ Reality
 Observe
 ```
 
-Không bỏ qua Layer.
+Mỗi Layer kế thừa kết quả của Layer trước.
 
-Không nhảy Layer.
+Workflow luôn tiến theo một chiều.
 
-Không suy luận ngược.
-
-Mọi chu kỳ đều kết thúc bằng Reality và bắt đầu lại từ Observation.
+Reality khởi đầu cho chu kỳ suy luận tiếp theo.
 
 ---
 
 # Tư tưởng cốt lõi
 
-Core Engine không cố gắng luôn đúng.
-
-Core Engine cố gắng đưa ra kết luận hợp lý nhất dựa trên bằng chứng hiện có.
+Core Engine hướng tới kết luận hợp lý nhất dựa trên bằng chứng hiện có.
 
 Mỗi Layer giúp giảm thêm một phần sự không chắc chắn.
 
-Reality luôn là tiêu chuẩn cuối cùng của mọi suy luận.
+Reality là tiêu chuẩn cuối cùng để kiểm chứng mọi kết luận.
+
+Quá trình học hỏi liên tục giúp hệ thống ngày càng đáng tin cậy hơn.
 
 ---
 
-> Một Core Engine tốt không dự đoán tương lai.
-
-> Một Core Engine tốt liên tục học hỏi từ thực tế.
+> Một Core Engine tốt tổ chức quá trình suy luận một cách nhất quán.
+>
+> Một Core Engine trưởng thành liên tục học hỏi từ thực tế.
