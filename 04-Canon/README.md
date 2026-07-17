@@ -8,7 +8,7 @@
 
 Canon là bộ máy suy luận của CC Trading.
 
-Nó chuyển dữ liệu thành quan sát, suy luận, quyết định và tri thức mới.
+Canon chuyển quan sát thành quyết định và chuyển thực tế thành tri thức mới.
 
 ---
 
@@ -64,10 +64,14 @@ Observation
 
 ## Foundation
 
-Nền tảng tư duy.
+Định nghĩa triết lý, nguyên lý, ngôn ngữ và kiến trúc của Canon.
 
 ---
 
 ## Core
 
-10 Core Engines.
+Hiện thực hóa Foundation thông qua mười Core Engines.
+
+---
+
+> In Pursuit of Clarity.
