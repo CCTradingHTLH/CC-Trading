@@ -1,7 +1,7 @@
 ---
 title: Validation
 id: validation
-version: 3.0
+version: 3.1
 status: Stable
 author: HTLH
 language: vi
@@ -22,11 +22,9 @@ tags:
 
 # Mục tiêu
 
-Đảm bảo Canon chỉ sử dụng Observation hợp lệ và đáng tin cậy.
+Validation đánh giá chất lượng của Observation trước khi chúng được sử dụng trong Canon.
 
-Validation không đánh giá thị trường.
-
-Validation chỉ đánh giá chất lượng của Observation.
+Chỉ những Observation đạt yêu cầu mới trở thành đầu vào của quá trình suy luận.
 
 ---
 
@@ -68,7 +66,7 @@ Ví dụ:
 - Derivatives
 - Macro
 
-Observation phải đáp ứng yêu cầu tối thiểu của hệ thống.
+Observation cần đáp ứng yêu cầu tối thiểu của hệ thống.
 
 ---
 
@@ -81,27 +79,25 @@ Ví dụ:
 - Dữ liệu lỗi.
 - Timestamp không chính xác.
 
-Validation chỉ kiểm tra tính hợp lệ của dữ liệu.
-
-Không đánh giá ý nghĩa của dữ liệu.
+Validation xác nhận tính toàn vẹn và tính hợp lệ của dữ liệu.
 
 ---
 
 ### 3. Observation có đáng tin cậy không?
 
-Observation phải:
+Observation cần:
 
 - Có nguồn rõ ràng.
 - Có thể xác minh.
 - Có tính nhất quán kỹ thuật.
 
-Chỉ những Observation đạt yêu cầu mới được chuyển cho Canon.
+Những Observation đạt yêu cầu được chuyển tiếp cho Canon.
 
 ---
 
 # Kết quả
 
-Validation có hai trạng thái.
+Validation tạo ra một trong hai kết quả.
 
 ```text
 PASS
@@ -111,9 +107,7 @@ PASS
 Canon
 ```
 
-Observation hợp lệ.
-
-Canon bắt đầu suy luận.
+Observation đạt yêu cầu và sẵn sàng cho quá trình suy luận.
 
 ---
 
@@ -122,35 +116,31 @@ FAIL
 
 ↓
 
-Reject Observation
+Collect Observation
 ```
 
-Observation không hợp lệ.
-
-Observation bị loại bỏ hoặc yêu cầu thu thập lại.
+Observation cần được bổ sung, hiệu chỉnh hoặc thu thập lại trước khi tiếp tục.
 
 ---
 
 # Nguyên tắc
 
-Validation không tạo kết luận.
+Validation tập trung vào chất lượng của Observation.
 
-Validation không đánh giá thị trường.
+Canon tiếp nhận các Observation đã được xác nhận để xây dựng tri thức.
 
-Validation không giải quyết xung đột giữa các Observation.
-
-Việc diễn giải và xử lý xung đột thuộc về Canon.
+Sự phân tách này giúp quá trình quan sát và suy luận luôn nhất quán.
 
 ---
 
 # Triết lý
 
-Không phải mọi dữ liệu đều đáng để suy luận.
+Observation chất lượng tạo nên nền tảng cho tri thức chất lượng.
 
-Chỉ những Observation hợp lệ mới trở thành nền tảng của tri thức.
+Validation bảo vệ chất lượng của toàn bộ Pipeline ngay từ điểm bắt đầu.
 
 ---
 
 > Validation bảo vệ chất lượng của Observation.
-
-> Canon chịu trách nhiệm diễn giải Observation.
+>
+> Canon chuyển Observation thành tri thức.

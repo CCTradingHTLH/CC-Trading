@@ -1,7 +1,7 @@
 ---
 title: Derivatives
 id: derivatives
-version: 3.0
+version: 3.1
 status: Stable
 author: HTLH
 language: vi
@@ -22,11 +22,9 @@ tags:
 
 # Mục tiêu
 
-Quan sát hành vi của dòng tiền trên thị trường phái sinh.
+Derivatives ghi nhận hành vi của dòng tiền và hoạt động trên thị trường phái sinh.
 
-Không dự đoán giá.
-
-Không tạo kết luận.
+Các Observation này bổ sung một góc nhìn quan trọng cho quá trình suy luận của Canon.
 
 ---
 
@@ -59,36 +57,38 @@ Observation
 Canon
 ```
 
-Derivatives chuyển đổi dữ liệu phái sinh thành Observation đã được chuẩn hóa.
+Derivatives chuyển đổi dữ liệu từ thị trường phái sinh thành Observation đã được chuẩn hóa.
 
-Canon không đọc trực tiếp dữ liệu phái sinh.
-
-Canon chỉ sử dụng Observation đã được xác nhận.
+Canon kết hợp các Observation này với những nguồn quan sát khác để xây dựng tri thức.
 
 ---
 
 # Nguyên tắc
 
-Mỗi Observation phản ánh một góc nhìn của thị trường.
+Mỗi Observation phản ánh một khía cạnh của hành vi thị trường.
 
-Không Observation nào đủ để tạo ra Decision một cách độc lập.
+Các Observation từ Derivatives được kết hợp với:
 
-Observation từ Derivatives phải được kết hợp với các nguồn quan sát khác trong Canon.
+- Market Context
+- Macro
+- Execution
 
-Observation không mang ý nghĩa kết luận.
+để hình thành một bức tranh quan sát toàn diện.
+
+Giá trị của từng Observation phụ thuộc vào bối cảnh của toàn bộ Pipeline.
 
 ---
 
 # Triết lý
 
-Dòng tiền không nói thị trường sẽ đi đâu.
+Dòng tiền phản ánh cách thị trường đang vận động.
 
-Dòng tiền chỉ phản ánh điều thị trường đang làm.
+Derivatives giúp hệ thống quan sát hành vi đó dưới góc nhìn của thị trường phái sinh.
 
-Ý nghĩa của dòng tiền chỉ xuất hiện khi được đặt trong bối cảnh của toàn bộ Canon.
+Ý nghĩa của các Observation được hình thành khi chúng được đặt trong bối cảnh của Canon.
 
 ---
 
 > Derivatives cung cấp bằng chứng.
-
+>
 > Canon diễn giải bằng chứng.

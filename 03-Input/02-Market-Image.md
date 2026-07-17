@@ -1,7 +1,7 @@
 ---
 title: Market Image
 id: market-image
-version: 3.0
+version: 3.1
 status: Stable
 author: HTLH
 language: vi
@@ -22,13 +22,11 @@ tags:
 
 # Mục tiêu
 
-Chuẩn hóa cách hệ thống thu thập Observation từ nhiều nguồn khác nhau.
+Market Image tổ chức các nguồn quan sát thành một hệ thống thống nhất.
 
-Không phụ thuộc vào người sử dụng.
+Mỗi góc nhìn phản ánh một khía cạnh của thị trường.
 
-Không phụ thuộc vào nền tảng giao dịch.
-
-Không phụ thuộc vào một loại dữ liệu duy nhất.
+Toàn bộ các góc nhìn cùng tạo nên một bức tranh quan sát hoàn chỉnh.
 
 ---
 
@@ -109,38 +107,34 @@ Observation
 Canon
 ```
 
-Market Image xác định nguồn gốc của Observation.
+Market Image xác định nguồn gốc và góc nhìn của từng Observation.
 
-Market Image không diễn giải dữ liệu.
-
-Market Image không đánh giá dữ liệu.
-
-Market Image không đưa ra kết luận.
+Observation trở thành ngôn ngữ chung cho toàn bộ quá trình suy luận của Canon.
 
 ---
 
 # Nguyên tắc
 
-Mỗi nguồn quan sát chỉ chịu trách nhiệm cung cấp dữ liệu.
+Mỗi nguồn quan sát đóng góp một góc nhìn riêng.
 
-Một Observation có thể kết hợp nhiều nguồn.
+Một Observation có thể được hình thành từ nhiều nguồn quan sát.
 
-Việc diễn giải Observation thuộc về Canon.
+Canon tổng hợp các Observation để xây dựng tri thức.
 
 ---
 
 # Triết lý
 
-Không có một góc nhìn nào phản ánh toàn bộ thị trường.
+Thị trường là một thực thể thống nhất.
 
-Market Image giúp hệ thống quan sát cùng một thị trường từ nhiều góc nhìn khác nhau.
+Market Image giúp hệ thống quan sát thực thể đó từ nhiều góc nhìn bổ sung cho nhau.
 
-Mọi góc nhìn đều được chuẩn hóa thành cùng một ngôn ngữ Observation.
+Các góc nhìn được chuẩn hóa thành cùng một ngôn ngữ Observation trước khi bước vào quá trình suy luận.
 
 ---
 
 > Thị trường là một.
-
+>
 > Góc nhìn có thể khác nhau.
-
+>
 > Observation là ngôn ngữ chung của mọi góc nhìn.

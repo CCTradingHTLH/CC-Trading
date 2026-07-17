@@ -1,7 +1,7 @@
 ---
 title: Observation
 id: observation
-version: 3.0
+version: 3.1
 status: Stable
 author: HTLH
 language: vi
@@ -24,13 +24,9 @@ tags:
 
 Observation là dữ liệu đã được quan sát và chuẩn hóa.
 
-Observation không phải kết luận.
+Observation mô tả điều đang xảy ra trên thị trường.
 
-Observation không phải dự đoán.
-
-Observation không phải quyết định.
-
-Observation chỉ mô tả điều đang xảy ra.
+Observation trở thành nền tảng cho toàn bộ quá trình suy luận của Canon.
 
 ---
 
@@ -54,23 +50,32 @@ Observation có thể bao gồm:
 
 ---
 
-# Không phải Observation
+# Phân biệt Observation và Knowledge
 
-Ví dụ.
+Ví dụ:
 
 ```text
-Bull Trend.
-
-Bull Momentum.
-
-Bear Reversal.
-
-High Risk Zone.
+Price = 61,820
+Volume tăng
+Funding = 0.012%
+Open Interest tăng
 ```
 
-Đây không phải Observation.
+Đây là **Observation**.
 
-Đây là kết quả của quá trình suy luận trong Canon.
+---
+
+```text
+Bull Trend
+
+Bull Momentum
+
+Bear Reversal
+
+High Risk Zone
+```
+
+Đây là **Knowledge** được Canon suy luận từ Observation.
 
 ---
 
@@ -92,41 +97,35 @@ Observation
 Canon
 ```
 
-Observation là điểm khởi đầu của toàn bộ quá trình suy luận.
+Observation kết nối thế giới thực với Canon.
 
-Canon chỉ sử dụng Observation.
-
-Canon không quan sát thị trường trực tiếp.
+Canon xây dựng tri thức từ các Observation đã được chuẩn hóa.
 
 ---
 
 # Nguyên tắc
 
-Observation phải:
+Một Observation có thể:
 
-- Có thể quan sát.
-- Có thể xác minh.
-- Có thể lặp lại.
-- Không chứa suy luận.
+- Quan sát được.
+- Xác minh được.
+- Lặp lại được.
+- Chuẩn hóa được.
 
-Nếu một thông tin đã mang ý nghĩa kết luận.
-
-Thông tin đó không còn là Observation.
+Những đặc tính này giúp Observation trở thành nền tảng đáng tin cậy cho quá trình suy luận.
 
 ---
 
 # Triết lý
 
-Quan sát đúng.
+Quan sát chính xác tạo nên nền tảng cho suy luận chính xác.
 
-Quan trọng hơn kết luận nhanh.
+Mỗi Observation giúp giảm thêm một phần sự không chắc chắn.
 
-Một Observation tốt làm giảm sự không chắc chắn.
-
-Một kết luận tốt luôn bắt đầu từ Observation tốt.
+Mọi kết luận đều bắt đầu từ Observation.
 
 ---
 
 > Observation ghi nhận sự thật.
-
+>
 > Canon diễn giải sự thật.

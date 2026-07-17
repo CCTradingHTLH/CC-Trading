@@ -1,7 +1,7 @@
 ---
 title: Macro
 id: macro
-version: 3.0
+version: 3.1
 status: Stable
 author: HTLH
 language: vi
@@ -22,11 +22,9 @@ tags:
 
 # Mục tiêu
 
-Quan sát bối cảnh vĩ mô và liên thị trường.
+Macro ghi nhận các yếu tố vĩ mô và liên thị trường có thể ảnh hưởng đến bối cảnh giao dịch.
 
-Không đánh giá xu hướng.
-
-Không tạo kết luận.
+Các Observation này bổ sung góc nhìn về môi trường cho quá trình suy luận của Canon.
 
 ---
 
@@ -62,36 +60,36 @@ Canon
 
 Macro chuyển đổi dữ liệu về môi trường thị trường thành Observation đã được chuẩn hóa.
 
-Canon không diễn giải trực tiếp dữ liệu vĩ mô.
-
-Canon chỉ sử dụng Observation đã được xác nhận.
+Canon kết hợp các Observation này với những nguồn quan sát khác để xây dựng tri thức.
 
 ---
 
 # Nguyên tắc
 
-Mỗi Observation trong Macro phản ánh một khía cạnh của môi trường thị trường.
+Mỗi Observation phản ánh một khía cạnh của môi trường thị trường.
 
-Không Observation nào trong Macro được sử dụng độc lập để tạo Decision.
+Các Observation từ Macro được kết hợp với:
 
-Macro luôn được kết hợp với các Observation khác trong Canon.
+- Market Context
+- Derivatives
+- Execution
 
-Observation không mang ý nghĩa kết luận.
+để xây dựng một bức tranh quan sát toàn diện.
+
+Giá trị của từng Observation phụ thuộc vào bối cảnh của toàn bộ Pipeline.
 
 ---
 
 # Triết lý
 
-Hiểu môi trường.
+Môi trường tạo nên bối cảnh cho hành vi của thị trường.
 
-Trước khi hiểu hành vi của thị trường.
+Macro giúp hệ thống quan sát bối cảnh đó dưới góc nhìn vĩ mô và liên thị trường.
 
-Môi trường không quyết định thị trường sẽ đi đâu.
-
-Môi trường chỉ cung cấp bối cảnh để diễn giải những gì đang xảy ra.
+Ý nghĩa của các Observation được hình thành khi chúng được đặt trong bối cảnh của Canon.
 
 ---
 
 > Macro cung cấp bối cảnh.
-
+>
 > Canon diễn giải bối cảnh.
