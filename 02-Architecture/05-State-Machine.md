@@ -1,12 +1,12 @@
 ---
 title: State Machine
 id: architecture-state-machine
-version: 2.0
+version: 3.0
 status: Freeze
 author: HTLH
 language: vi
 created: 2026-07-12
-last_updated: 2026-07-12
+last_updated: 2026-07-17
 review_cycle: Monthly
 confidence: 100%
 tags:
@@ -16,22 +16,26 @@ tags:
 
 # State Machine
 
-> State Machine mô tả trạng thái suy luận của Core Engine.
+> State Machine mô tả cách CC Trading chuyển từ một trạng thái suy luận sang trạng thái tiếp theo.
 
 ---
 
 # Mục tiêu
 
-Core Engine chỉ được phép ở một State tại một thời điểm.
+State Machine đảm bảo quá trình suy luận diễn ra theo đúng trình tự.
 
-State luôn tiến về phía trước.
+Tại mỗi thời điểm.
+
+Mỗi Layer chỉ có một trạng thái hoạt động.
+
+Mỗi State chỉ được chuyển khi State hiện tại đã hoàn thành.
 
 ---
 
-# State
+# State Flow
 
 ```text
-Input
+Observe
 
 ↓
 
@@ -59,12 +63,30 @@ Decision
 
 ↓
 
-Execution
+Signal Weight
+
+↓
+
+Scenario Space
+
+↓
+
+Execution Planner
+
+↓
+
+Reality Feedback
+
+↓
+
+Observe
 ```
+
+State Machine tạo thành một chu kỳ suy luận khép kín.
 
 ---
 
-# Chuyển State
+# State Transition
 
 Core Engine chỉ được chuyển State khi Layer hiện tại đã hoàn thành.
 
@@ -83,6 +105,18 @@ Hợp lệ.
 ---
 
 ```text
+Quality
+
+↓
+
+Decision
+```
+
+Hợp lệ.
+
+---
+
+```text
 Momentum
 
 ↓
@@ -94,25 +128,45 @@ Không hợp lệ.
 
 ---
 
-# Wait
+```text
+Scenario Space
 
-Wait là một State hợp lệ.
+↓
 
-Wait xảy ra khi.
+Reality Feedback
+```
 
-- Confidence chưa đủ.
-- Layer hiện tại chưa hoàn thành.
-- Có xung đột giữa các Layer.
+Không hợp lệ.
+
+Execution Planner luôn là bước trung gian.
+
+---
+
+# Transition Rules
+
+State chỉ được chuyển theo đúng Workflow.
+
+Không được bỏ qua State.
+
+Không được suy luận ngược.
+
+Reality Feedback luôn kết thúc một chu kỳ.
+
+Observation luôn bắt đầu chu kỳ tiếp theo.
 
 ---
 
 # Nguyên tắc
 
-Không được bỏ qua State.
+State phản ánh tiến trình suy luận.
 
-Không được quay ngược State.
+Không phản ánh dữ liệu.
 
-Không tồn tại vòng lặp.
+Không phản ánh thị trường.
+
+Mỗi State chỉ có một trách nhiệm duy nhất.
+
+Layer sau chỉ sử dụng kết quả đã được xác nhận của Layer trước.
 
 ---
 
@@ -120,4 +174,14 @@ Không tồn tại vòng lặp.
 
 State không đại diện cho dữ liệu.
 
-State đại diện cho mức độ hiểu biết của Core Engine.
+State đại diện cho tiến trình suy luận.
+
+Một chu kỳ không kết thúc ở Decision.
+
+Một chu kỳ chỉ hoàn thành khi Reality được quan sát và chuyển hóa thành tri thức mới.
+
+---
+
+> State Machine không tổ chức dữ liệu.
+
+> State Machine tổ chức quá trình suy luận.

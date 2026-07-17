@@ -1,12 +1,12 @@
 ---
 title: Architecture
 id: architecture
-version: 2.0
+version: 3.0
 status: Freeze
 author: HTLH
 language: vi
 created: 2026-07-12
-last_updated: 2026-07-12
+last_updated: 2026-07-17
 review_cycle: Monthly
 confidence: 100%
 tags:
@@ -17,7 +17,7 @@ tags:
 
 # Architecture
 
-> Architecture mô tả cách Core Engine chuyển đổi dữ liệu đầu vào thành quyết định giao dịch.
+> Architecture mô tả cách CC Trading tổ chức quá trình suy luận từ dữ liệu đầu vào đến quyết định.
 
 ---
 
@@ -25,11 +25,13 @@ tags:
 
 Architecture trả lời một câu hỏi duy nhất.
 
-> Core Engine suy luận như thế nào?
+> Hệ thống suy luận như thế nào?
 
 Architecture không định nghĩa tri thức.
 
-Architecture chỉ định nghĩa cách các lớp tri thức phối hợp với nhau.
+Architecture không tạo quyết định.
+
+Architecture định nghĩa cách các thành phần của hệ thống phối hợp để tạo nên quá trình suy luận.
 
 ---
 
@@ -51,15 +53,20 @@ README
 06 Extensibility
 ```
 
-Mỗi tài liệu mô tả một khía cạnh của Core Engine.
+Mỗi tài liệu mô tả một khía cạnh của kiến trúc tổng thể.
 
 ---
 
 # Quan hệ với Canon
 
-Canon định nghĩa tri thức.
+| Thành phần | Vai trò |
+|------------|----------|
+| **Architecture** | Định nghĩa cách hệ thống vận hành. |
+| **Canon** | Định nghĩa tri thức mà hệ thống sử dụng. |
 
-Architecture định nghĩa cách sử dụng tri thức.
+Architecture quyết định tri thức được luân chuyển như thế nào.
+
+Canon quyết định tri thức đó có ý nghĩa gì.
 
 Hai thành phần độc lập nhưng bổ sung cho nhau.
 
@@ -67,10 +74,18 @@ Hai thành phần độc lập nhưng bổ sung cho nhau.
 
 # Triết lý
 
-Core Engine không xử lý dữ liệu theo Indicator.
+CC Trading không xử lý dữ liệu theo Indicator.
 
-Core Engine xử lý dữ liệu theo chuỗi câu hỏi.
+CC Trading xử lý dữ liệu thông qua một chuỗi câu hỏi.
 
 Mỗi tầng chỉ chịu trách nhiệm trả lời một câu hỏi.
 
-Chỉ khi câu hỏi hiện tại được trả lời đủ chắc chắn thì Core Engine mới chuyển sang tầng tiếp theo.
+Mỗi Engine chỉ giải quyết đúng trách nhiệm của mình.
+
+Chỉ khi bằng chứng hiện tại đủ rõ ràng, hệ thống mới chuyển sang tầng suy luận tiếp theo.
+
+---
+
+> Một kiến trúc tốt không cố gắng trả lời mọi câu hỏi.
+>
+> Một kiến trúc tốt tổ chức các câu hỏi theo đúng thứ tự.

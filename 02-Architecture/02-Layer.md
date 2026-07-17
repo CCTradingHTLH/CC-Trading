@@ -1,12 +1,12 @@
 ---
 title: Layer
 id: architecture-layer
-version: 2.0
+version: 3.0
 status: Freeze
 author: HTLH
 language: vi
 created: 2026-07-12
-last_updated: 2026-07-12
+last_updated: 2026-07-17
 review_cycle: Monthly
 confidence: 100%
 tags:
@@ -22,62 +22,84 @@ tags:
 
 # Layer
 
-## Input
+## Observe
 
-**Mình có dữ liệu gì?**
+**Mình đang quan sát điều gì?**
 
 ---
 
 ## Auction
 
-**Giá đang làm gì?**
+**Thị trường đang đấu giá như thế nào?**
 
 ---
 
 ## Market Context
 
-**Thị trường đang ở đâu?**
+**Hành vi này đang diễn ra trong bối cảnh nào?**
 
 ---
 
 ## Momentum
 
-**Lực đang đi đâu?**
+**Lực đang thay đổi như thế nào?**
 
 ---
 
 ## Structure
 
-**Giá có xác nhận lực đó không?**
+**Thị trường đã phản ứng như thế nào trước sự thay đổi của lực?**
 
 ---
 
 ## Quality
 
-**Có đáng giao dịch không?**
+**Toàn bộ Pipeline đáng tin đến mức nào?**
 
 ---
 
 ## Decision
 
-**Làm gì?**
+**Kết luận hợp lý nhất tại thời điểm hiện tại là gì?**
 
 ---
 
-## Execution
+## Signal Weight
 
-**Làm như thế nào?**
+**Điều gì ảnh hưởng nhiều nhất đến kết luận?**
+
+---
+
+## Scenario Space
+
+**Những khả năng nào đang tồn tại?**
+
+---
+
+## Execution Planner
+
+**Nếu kịch bản này xảy ra, mình nên hành động như thế nào?**
+
+---
+
+## Reality Feedback
+
+**Thực tế đã diễn ra như thế nào?**
 
 ---
 
 # Triết lý
 
-Core Engine không nhảy cóc.
+CC Trading không nhảy cóc giữa các Layer.
 
-Core Engine chỉ chuyển sang Layer tiếp theo khi Layer hiện tại đã được xác nhận.
+Mỗi Layer chỉ trả lời đúng một câu hỏi.
+
+Mỗi Layer chỉ sử dụng kết quả của Layer trước đó.
+
+Chỉ khi câu hỏi hiện tại được trả lời đủ rõ ràng thì hệ thống mới chuyển sang Layer tiếp theo.
 
 ```text
-Input
+Observe
 
 ↓
 
@@ -85,7 +107,7 @@ Auction
 
 ↓
 
-Context
+Market Context
 
 ↓
 
@@ -105,9 +127,31 @@ Decision
 
 ↓
 
-Execution
+Signal Weight
+
+↓
+
+Scenario Space
+
+↓
+
+Execution Planner
+
+↓
+
+Reality Feedback
+
+↓
+
+Observe
 ```
 
 Mỗi Layer đều có trách nhiệm riêng.
 
 Không Layer nào được phép thay thế Layer khác.
+
+---
+
+> Một Layer tốt không trả lời nhiều câu hỏi.
+
+> Một Layer tốt chỉ trả lời đúng một câu hỏi.
