@@ -2,9 +2,9 @@
 
 ---
 
-## Mục tiêu
+## Mục đích
 
-State phản ánh trạng thái của từng Execution Plan.
+State phản ánh trạng thái hiện tại của từng Execution Plan.
 
 ---
 
@@ -24,7 +24,7 @@ Chờ điều kiện xác nhận.
 
 ### Suspended
 
-Tạm dừng.
+Tạm dừng thực thi.
 
 ---
 
@@ -34,4 +34,4 @@ Kế hoạch không còn phù hợp.
 
 ---
 
-> State phản ánh mức độ sẵn sàng của kế hoạch.
+> State phản ánh mức độ sẵn sàng của từng Execution Plan.

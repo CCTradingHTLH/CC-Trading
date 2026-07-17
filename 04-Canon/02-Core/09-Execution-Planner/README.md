@@ -1,25 +1,25 @@
 # Engine 09 · Execution Planner
 
-> Thiết kế kế hoạch thực thi cho từng kịch bản.
+> Thiết kế kế hoạch thực thi cho từng Scenario.
 
 ---
 
 # Mục đích
 
-Execution Planner chuyển từng Scenario thành một kế hoạch hành động cụ thể.
+Execution Planner chuyển từng Scenario thành một kế hoạch thực thi.
 
 Mỗi kế hoạch xác định:
 
-- Điều kiện thực thi.
-- Điều kiện hủy bỏ.
-- Quản trị rủi ro.
-- Quản trị vị thế.
+- Điều kiện thực thi
+- Điều kiện hủy bỏ
+- Quản trị rủi ro
+- Quản trị vị thế
 
 ---
 
 # Câu hỏi
 
-Nếu kịch bản này xảy ra, mình nên hành động như thế nào?
+Nếu Scenario này xảy ra, mình nên hành động như thế nào?
 
 ---
 
@@ -33,7 +33,7 @@ Scenario Space.
 
 Execution Plans.
 
-Execution Plans trở thành đầu vào của Reality Feedback.
+Execution Plans trở thành đầu vào của Engine 10 · Reality Feedback.
 
 ---
 

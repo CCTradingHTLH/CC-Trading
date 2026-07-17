@@ -4,17 +4,17 @@
 
 ## Bản chất
 
-Execution Planner thiết kế cách phản ứng phù hợp cho từng Scenario.
+Execution Planner thiết kế kế hoạch thực thi cho từng Scenario.
 
-Engine này không lựa chọn Scenario.
+Execution Planner không lựa chọn Scenario.
 
-Engine này chuẩn bị hành động cho các Scenario.
+Execution Planner chuẩn bị kế hoạch thực thi cho các Scenario.
 
 ---
 
 ## Thành phần
 
-Execution Plan bao gồm:
+Một Execution Plan bao gồm:
 
 - Entry
 - Confirmation
@@ -33,7 +33,7 @@ Chuẩn bị.
 
 Chuẩn hóa.
 
-Thực thi.
+Lập kế hoạch.
 
 ---
 
@@ -41,6 +41,8 @@ Thực thi.
 
 Execution Plans.
 
+Execution Plans trở thành đầu vào của Engine 10 · Reality Feedback.
+
 ---
 
-> Một kế hoạch tốt giúp giảm sự ngẫu hứng khi thị trường thay đổi.
+> Một kế hoạch tốt tạo nên một quá trình thực thi nhất quán.

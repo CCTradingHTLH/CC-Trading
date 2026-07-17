@@ -6,9 +6,11 @@
 
 Bull Continuation
 
+↓
+
 Execution Plan
 
-Entry
+Entry Zone
 
 61820–61920
 
@@ -16,19 +18,17 @@ Confirmation
 
 POC giữ.
 
-SL
+Stop Loss
 
 61580
 
-TP1
+Take Profit
 
-62400
+TP1 · 62400
 
-TP2
+TP2 · 62900
 
-62900
-
-RR
+Risk / Reward
 
 1:2.8
 
@@ -38,7 +38,11 @@ RR
 
 Range Expansion
 
+↓
+
 Execution Plan
+
+State
 
 Waiting
 
@@ -52,16 +56,18 @@ Break khỏi Value Area.
 
 Bear Reversal
 
+↓
+
 Execution Plan
 
 Entry
 
 Sau Break Structure.
 
-SL
+Stop Loss
 
 Higher High gần nhất.
 
 ---
 
-> Mỗi Scenario đều có kế hoạch riêng.
+> Mỗi Scenario đều có một Execution Plan tương ứng.

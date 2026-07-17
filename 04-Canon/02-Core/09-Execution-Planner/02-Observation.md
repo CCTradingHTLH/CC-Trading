@@ -2,9 +2,9 @@
 
 ---
 
-## Mục tiêu
+## Mục đích
 
-Quan sát những điều kiện cần thiết trước khi hành động.
+Quan sát các điều kiện cần thiết để thực thi từng Execution Plan.
 
 ---
 
@@ -30,10 +30,10 @@ Execution Cost
 
 ## Nguyên tắc
 
-Mỗi Scenario có điều kiện thực thi riêng.
+Mỗi Execution Plan có các điều kiện thực thi riêng.
 
-Execution Planner mô tả các điều kiện đó.
+Execution Planner chuẩn hóa các điều kiện đó.
 
 ---
 
-> Kế hoạch phản ánh điều kiện của từng kịch bản.
+> Kế hoạch phản ánh điều kiện thực thi của từng Scenario.

@@ -2,7 +2,7 @@
 
 ---
 
-## Mục tiêu
+## Mục đích
 
 Transition mô tả sự thay đổi của Execution Plan.
 
@@ -46,6 +46,8 @@ Cancelled
 
 Execution Plan thay đổi khi Scenario thay đổi.
 
+Execution Plan chỉ chuyển trạng thái khi có đủ điều kiện.
+
 ---
 
-> Kế hoạch luôn thích nghi với trạng thái của Scenario.
+> Execution Plan thích nghi cùng Scenario.
