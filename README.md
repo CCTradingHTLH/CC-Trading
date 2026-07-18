@@ -1,4 +1,6 @@
-# CC Trading
+# 🧠 CC Trading
+
+Market Reasoning Framework
 
 > **Observe. Reason. Execute.**
 
