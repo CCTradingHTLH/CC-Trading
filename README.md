@@ -101,3 +101,32 @@ Chi tiết xem tại tệp `LICENSE`.
 > **Observe. Reason. Execute.**
 >
 > **Theo đuổi sự sáng suốt trong mọi quyết định.**
+
+---
+
+## Manifesto
+
+- [Manifesto](01-Manifesto.md)
+
+---
+
+## Architecture
+
+- [README](02-Architecture/README.md)
+- [01 Workflow](02-Architecture/01-Workflow.md)
+- [02 Layer](02-Architecture/02-Layer.md)
+- [03 Core Engine](02-Architecture/03-Core-Engine.md)
+- [04 Data Flow](02-Architecture/04-Data-Flow.md)
+- [05 State Machine](02-Architecture/05-State-Machine.md)
+- [06 Extensibility](02-Architecture/06-Extensibility.md)
+
+---
+
+## Input
+
+- [README](03-Input/README.md)
+- [01 Observation](03-Input/01-Observation.md)
+- [02 Market Image](03-Input/02-Market-Image.md)
+- [03 Derivatives](03-Input/03-Derivatives.md)
+- [04 Macro](03-Input/04-Macro.md)
+- [05 Validation](03-Input/05-Validation.md)
