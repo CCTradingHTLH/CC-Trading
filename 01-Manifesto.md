@@ -1,3 +1,5 @@
+🏠 [CC Trading](../README.md)
+
 # Manifesto
 
 > Những nguyên tắc cốt lõi định hình cách CC Trading quan sát, suy luận và đưa ra quyết định.
