@@ -157,3 +157,12 @@ Toàn bộ Workflow được hình thành từ sự phối hợp của các Laye
 > Một Layer tốt chỉ trả lời một câu hỏi.
 
 > Một Workflow tốt kết nối các câu trả lời thành một quá trình suy luận.
+
+---
+
+- [README](02-Architecture/README.md)
+- [01 Workflow](02-Architecture/01-Workflow.md)
+- [03 Core Engine](02-Architecture/03-Core-Engine.md)
+- [04 Data Flow](02-Architecture/04-Data-Flow.md)
+- [05 State Machine](02-Architecture/05-State-Machine.md)
+- [06 Extensibility](02-Architecture/06-Extensibility.md)

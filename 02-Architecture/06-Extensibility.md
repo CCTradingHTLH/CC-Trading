@@ -199,3 +199,12 @@ Reality thúc đẩy sự tiến hóa của toàn bộ hệ thống.
 > Một kiến trúc tốt cho phép hệ thống phát triển.
 
 > Một kiến trúc trưởng thành giúp sự phát triển luôn giữ được tính nhất quán.
+
+---
+
+- [README](02-Architecture/README.md)
+- [01 Workflow](02-Architecture/01-Workflow.md)
+- [02 Layer](02-Architecture/02-Layer.md)
+- [03 Core Engine](02-Architecture/03-Core-Engine.md)
+- [04 Data Flow](02-Architecture/04-Data-Flow.md)
+- [05 State Machine](02-Architecture/05-State-Machine.md)

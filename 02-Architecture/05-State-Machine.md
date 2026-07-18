@@ -179,3 +179,12 @@ Một chu kỳ hoàn thành khi Reality được quan sát, đánh giá và chuy
 > State Machine tổ chức tiến trình suy luận.
 
 > Reality mở đầu cho mỗi chu kỳ học hỏi mới.
+
+---
+
+- [README](02-Architecture/README.md)
+- [01 Workflow](02-Architecture/01-Workflow.md)
+- [02 Layer](02-Architecture/02-Layer.md)
+- [03 Core Engine](02-Architecture/03-Core-Engine.md)
+- [04 Data Flow](02-Architecture/04-Data-Flow.md)
+- [06 Extensibility](02-Architecture/06-Extensibility.md)

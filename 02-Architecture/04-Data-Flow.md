@@ -239,3 +239,12 @@ Thực tế tiếp tục mở rộng tri thức của hệ thống.
 > Suy luận tạo nên quyết định.
 >
 > Thực tế tạo nên tri thức.
+
+---
+
+- [README](02-Architecture/README.md)
+- [01 Workflow](02-Architecture/01-Workflow.md)
+- [02 Layer](02-Architecture/02-Layer.md)
+- [03 Core Engine](02-Architecture/03-Core-Engine.md)
+- [05 State Machine](02-Architecture/05-State-Machine.md)
+- [06 Extensibility](02-Architecture/06-Extensibility.md)
