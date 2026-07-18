@@ -14,6 +14,8 @@ tags:
   - validation
 ---
 
+🏠 [CC Trading](../README.md) › [Input](README.md) › Validation
+
 # Validation
 
 > Validation xác nhận Observation đã đủ điều kiện để bắt đầu quá trình suy luận.

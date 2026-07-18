@@ -14,6 +14,8 @@ tags:
   - market-image
 ---
 
+🏠 [CC Trading](../README.md) › [Input](README.md) › Market Image
+
 # Market Image
 
 > Market Image định nghĩa các góc nhìn mà CC Trading sử dụng để quan sát thị trường.

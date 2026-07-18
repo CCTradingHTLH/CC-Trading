@@ -14,6 +14,8 @@ tags:
   - macro
 ---
 
+🏠 [CC Trading](../README.md) › [Input](README.md) › Macro
+
 # Macro
 
 > Macro chuẩn hóa các Observation về môi trường thị trường.

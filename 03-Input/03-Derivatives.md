@@ -14,6 +14,8 @@ tags:
   - derivatives
 ---
 
+🏠 [CC Trading](../README.md) › [Input](README.md) › Derivatives
+
 # Derivatives
 
 > Derivatives chuẩn hóa các Observation đến từ thị trường phái sinh.

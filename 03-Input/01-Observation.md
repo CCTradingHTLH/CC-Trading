@@ -14,6 +14,8 @@ tags:
   - observation
 ---
 
+🏠 [CC Trading](../README.md) › [Input](README.md) › Observation
+
 # Observation
 
 > Observation là những gì hệ thống trực tiếp quan sát và ghi nhận từ thị trường.
