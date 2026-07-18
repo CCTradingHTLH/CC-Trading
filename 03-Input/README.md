@@ -14,7 +14,7 @@ tags:
   - observation
 ---
 
-🏠 [CC Trading](../README.md)
+🏠 [CC Trading](../README.md) › [Input]
 
 # Input
 
