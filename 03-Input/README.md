@@ -14,6 +14,8 @@ tags:
   - observation
 ---
 
+🏠 [Home](../README.md)
+
 # Input
 
 > Input định nghĩa cách CC Trading quan sát và chuẩn hóa thế giới.
