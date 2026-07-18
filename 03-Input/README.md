@@ -148,3 +148,11 @@ Chất lượng của quá trình suy luận bắt đầu từ chất lượng c
 > Quan sát là điểm bắt đầu của mọi suy luận.
 >
 > Chất lượng của Canon bắt đầu từ chất lượng của Observation.
+
+---
+
+- [01 Observation](03-Input/01-Observation.md)
+- [02 Market Image](03-Input/02-Market-Image.md)
+- [03 Derivatives](03-Input/03-Derivatives.md)
+- [04 Macro](03-Input/04-Macro.md)
+- [05 Validation](03-Input/05-Validation.md)
