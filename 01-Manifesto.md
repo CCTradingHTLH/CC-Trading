@@ -1,4 +1,4 @@
-🏠 [CC Trading](../README.md) › [Manifesto]
+🏠 [CC Trading](README.md) › [Manifesto]
 
 # Manifesto
 
