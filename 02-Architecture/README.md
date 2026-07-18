@@ -91,7 +91,7 @@ Mỗi bước suy luận kế thừa kết quả của bước trước để t�
 ---
 
 - [01 Workflow](01-Workflow.md)
-- [02 Layer](/02-Layer.md)
+- [02 Layer](02-Layer.md)
 - [03 Core Engine](03-Core-Engine.md)
 - [04 Data Flow](04-Data-Flow.md)
 - [05 State Machine](05-State-Machine.md)
