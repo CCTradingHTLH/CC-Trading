@@ -14,6 +14,8 @@ tags:
   - architecture
 ---
 
+🏠 [CC Trading](../README.md) › [Architecture](README.md) › Workflow
+
 # Workflow
 
 > Workflow mô tả trình tự suy luận của CC Trading.

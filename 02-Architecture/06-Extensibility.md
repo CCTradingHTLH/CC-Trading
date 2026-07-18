@@ -14,6 +14,8 @@ tags:
   - extensibility
 ---
 
+🏠 [CC Trading](../README.md) › [Architecture](README.md) › Extensibility
+
 # Extensibility
 
 > Extensibility mô tả cách CC Trading phát triển mà vẫn giữ được tính nhất quán của kiến trúc.

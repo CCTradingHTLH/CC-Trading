@@ -15,6 +15,8 @@ tags:
   - reasoning
 ---
 
+🏠 [CC Trading](../README.md) › [Architecture](README.md) › Core Engine
+
 # Core Engine
 
 > Core Engine là bộ máy suy luận cốt lõi của CC Trading.

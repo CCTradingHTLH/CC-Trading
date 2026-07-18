@@ -14,6 +14,8 @@ tags:
   - layer
 ---
 
+🏠 [CC Trading](../README.md) › [Architecture](README.md) › Layer
+
 # Layer
 
 > Mỗi Layer chịu trách nhiệm trả lời một câu hỏi.

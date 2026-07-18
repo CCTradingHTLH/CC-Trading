@@ -14,6 +14,8 @@ tags:
   - data-flow
 ---
 
+🏠 [CC Trading](../README.md) › [Architecture](README.md) › Data Flow
+
 # Data Flow
 
 > Data Flow mô tả cách bằng chứng và tri thức luân chuyển trong CC Trading.

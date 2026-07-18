@@ -14,6 +14,8 @@ tags:
   - state-machine
 ---
 
+🏠 [CC Trading](../README.md) › [Architecture](README.md) › State Machine
+
 # State Machine
 
 > State Machine mô tả cách CC Trading chuyển từ một trạng thái suy luận sang trạng thái tiếp theo.
