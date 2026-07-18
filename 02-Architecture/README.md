@@ -15,6 +15,8 @@ tags:
   - workflow
 ---
 
+🏠 [Home](../README.md)
+
 # Architecture
 
 > Architecture mô tả cách CC Trading tổ chức quá trình suy luận từ dữ liệu đầu vào đến quyết định.
