@@ -15,7 +15,7 @@ tags:
   - workflow
 ---
 
-🏠 [CC Trading](../README.md)
+🏠 [CC Trading](../README.md) › [Architecture]
 
 # Architecture
 
