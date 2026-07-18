@@ -90,9 +90,9 @@ Mỗi bước suy luận kế thừa kết quả của bước trước để t�
 
 ---
 
-- [01 Workflow](02-Architecture/01-Workflow.md)
-- [02 Layer](02-Architecture/02-Layer.md)
-- [03 Core Engine](02-Architecture/03-Core-Engine.md)
-- [04 Data Flow](02-Architecture/04-Data-Flow.md)
-- [05 State Machine](02-Architecture/05-State-Machine.md)
-- [06 Extensibility](02-Architecture/06-Extensibility.md)
+- [01 Workflow](01-Workflow.md)
+- [02 Layer](/02-Layer.md)
+- [03 Core Engine](03-Core-Engine.md)
+- [04 Data Flow](04-Data-Flow.md)
+- [05 State Machine](05-State-Machine.md)
+- [06 Extensibility](06-Extensibility.md)
