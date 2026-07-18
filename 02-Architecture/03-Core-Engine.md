@@ -293,9 +293,9 @@ Quá trình học hỏi liên tục giúp hệ thống ngày càng đáng tin c�
 
 ---
 
-- [README](02-Architecture/README.md)
-- [01 Workflow](02-Architecture/01-Workflow.md)
-- [02 Layer](02-Architecture/02-Layer.md)
-- [04 Data Flow](02-Architecture/04-Data-Flow.md)
-- [05 State Machine](02-Architecture/05-State-Machine.md)
-- [06 Extensibility](02-Architecture/06-Extensibility.md)
+- [README](README.md)
+- [01 Workflow](01-Workflow.md)
+- [02 Layer](02-Layer.md)
+- [04 Data Flow](04-Data-Flow.md)
+- [05 State Machine](05-State-Machine.md)
+- [06 Extensibility](06-Extensibility.md)

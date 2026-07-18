@@ -202,9 +202,9 @@ Reality thúc đẩy sự tiến hóa của toàn bộ hệ thống.
 
 ---
 
-- [README](02-Architecture/README.md)
-- [01 Workflow](02-Architecture/01-Workflow.md)
-- [02 Layer](02-Architecture/02-Layer.md)
-- [03 Core Engine](02-Architecture/03-Core-Engine.md)
-- [04 Data Flow](02-Architecture/04-Data-Flow.md)
-- [05 State Machine](02-Architecture/05-State-Machine.md)
+- [README](README.md)
+- [01 Workflow](01-Workflow.md)
+- [02 Layer](02-Layer.md)
+- [03 Core Engine](03-Core-Engine.md)
+- [04 Data Flow](04-Data-Flow.md)
+- [05 State Machine](05-State-Machine.md)
