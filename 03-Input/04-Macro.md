@@ -98,8 +98,8 @@ Macro giúp hệ thống quan sát bối cảnh đó dưới góc nhìn vĩ mô 
 
 ---
 
-- [README](03-Input/README.md)
-- [01 Observation](03-Input/01-Observation.md)
-- [02 Market Image](03-Input/02-Market-Image.md)
-- [03 Derivatives](03-Input/03-Derivatives.md)
-- [05 Validation](03-Input/05-Validation.md)
+- [README](README.md)
+- [01 Observation](01-Observation.md)
+- [02 Market Image](02-Market-Image.md)
+- [03 Derivatives](03-Derivatives.md)
+- [05 Validation](05-Validation.md)

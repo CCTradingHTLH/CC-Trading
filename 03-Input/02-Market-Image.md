@@ -143,8 +143,8 @@ Các góc nhìn được chuẩn hóa thành cùng một ngôn ngữ Observation
 
 ---
 
-- [README](03-Input/README.md)
-- [01 Observation](03-Input/01-Observation.md)
-- [03 Derivatives](03-Input/03-Derivatives.md)
-- [04 Macro](03-Input/04-Macro.md)
-- [05 Validation](03-Input/05-Validation.md)
+- [README](README.md)
+- [01 Observation](01-Observation.md)
+- [03 Derivatives](03-Derivatives.md)
+- [04 Macro](04-Macro.md)
+- [05 Validation](05-Validation.md)

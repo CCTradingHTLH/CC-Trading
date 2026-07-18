@@ -97,8 +97,8 @@ Derivatives giúp hệ thống quan sát hành vi đó dưới góc nhìn của 
 
 ---
 
-- [README](03-Input/README.md)
-- [01 Observation](03-Input/01-Observation.md)
-- [02 Market Image](03-Input/02-Market-Image.md)
-- [04 Macro](03-Input/04-Macro.md)
-- [05 Validation](03-Input/05-Validation.md)
+- [README](README.md)
+- [01 Observation](01-Observation.md)
+- [02 Market Image](02-Market-Image.md)
+- [04 Macro](04-Macro.md)
+- [05 Validation](05-Validation.md)
