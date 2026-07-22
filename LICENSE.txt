@@ -1,10 +1,7 @@
-LICENSE
-
 MIT License
 
-CC Trading
-
 Copyright (c) 2026 HTLH-ARM
+Project: CC Trading
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
